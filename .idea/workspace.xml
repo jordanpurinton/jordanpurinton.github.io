@@ -9,10 +9,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Theme/assets/img/Screen Shot 2016-08-24 at 6.25.34 PM.png" afterPath="$PROJECT_DIR$/Theme/assets/img/UM-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Theme/assets/img/Screen Shot 2016-08-24 at 6.26.52 PM.png" afterPath="$PROJECT_DIR$/Theme/assets/img/atg-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Theme/assets/img/Screen Shot 2016-08-24 at 6.28.01 PM.png" afterPath="$PROJECT_DIR$/Theme/assets/img/kaimin-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Theme/assets/img/lotus-logo-1024x1024.png" afterPath="$PROJECT_DIR$/Theme/assets/img/maytech-logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -39,8 +35,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26605505">
-              <caret line="344" column="60" selection-start-line="344" selection-start-column="60" selection-end-line="344" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="328" column="14" selection-start-line="328" selection-start-column="14" selection-end-line="328" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -661,12 +657,12 @@
       <workItem from="1472077139620" duration="7029000" />
       <workItem from="1472087243497" duration="258000" />
       <workItem from="1472088094313" duration="197000" />
-      <workItem from="1472088682820" duration="4444000" />
+      <workItem from="1472088682820" duration="4549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12807000" />
+    <option name="totallyTimeSpent" value="12912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-73" width="1920" height="1053" extended-state="0" />
@@ -894,10 +890,15 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Theme/assets/img/jordan-purinton-pic.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26605505">
-          <caret line="344" column="60" selection-start-line="344" selection-start-column="60" selection-end-line="344" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="328" column="14" selection-start-line="328" selection-start-column="14" selection-end-line="328" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
