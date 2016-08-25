@@ -27,8 +27,10 @@
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
-    <script>   new WOW().init();</script>
-    <![endif]-->
+    <script>  wow = new WOW({
+        offset: 50,
+    })
+    wow.init();</script>
 </head>
 
 <body data-spy="scroll" data-offset="0" data-target="#nav">
@@ -115,7 +117,7 @@
         </div><!--/.container -->
     </div><!--/ #intro -->
 </div>
-<div class="wow fadeInUp">
+<div class="wow fadeInUp" data-wow-delay=".5s">
     <section id="resume" name="resume"></section>
     <!--EDUCATION DESCRIPTION -->
     <div class="container desc">
@@ -149,7 +151,7 @@
 
 
 <!--WORK DESCRIPTION -->
-git co
+<div class="wow fadeInUpBig">
     <div class="container desc">
         <div class="row">
             <div class="col-lg-2 col-lg-offset-1">
@@ -157,7 +159,6 @@ git co
             </div>
             <div class="col-lg-6">
                 <p>
-                <hr></hr>
                 <t>CONSULTING INTERN -</t>
                 Advanced Technology Group
                 </p><br>
@@ -185,7 +186,7 @@ git co
                 </p>
             </div>
         </div>
-        <div class="bounceInUp">
+        <div class="wow fadeInUpBig">
             <div class="col-lg-6 col-lg-offset-3">
                 <p><br>
                     <t>RESEARCH ASSISTANT -</t>
@@ -223,74 +224,77 @@ git co
                 </p>
             </div>
         </div>
-        <div class="wow bounceInUp">
-        <div class="col-lg-6 col-lg-offset-3">
-            <br>
-            <p>
-                <t>WEBMASTER -</t>
-                Montana Kaimin<br/>
-            </p>
-            <br>
-            <p>
-                <more>
-                    <li type="square">Successfully managed staff of 40+, spearheading new online strategies to grow web
-                        traffic by over 100%.
-                    </li>
-                    <br>
-                    <li type="square">Planned and implemented online workflow through use of social media and content
-                        management system.
-                    </li>
-                    <br>
-                    <li type="square">Use web traffic statistics to identify strengths, areas of improvement and
-                        other metrics.
-                    </li>
-                    <br>
-                    <li type="square">Redesigned www.montanakaimin.com website with cleaner UI, intuitive navigation and
-                        polished content formatting.
-                    </li>
-                </more>
-            </p>
-            <hr></hr>
-        </div>
-        <div class="col-lg-3">
-            <p>
-                <sm><br>MAY 2014 - SEPTEMBER 2015</sm>
-                <br><br><br><br><img src="Theme/assets/img/kaimin-logo.png" style="zoom:70%"></img>
-            </p>
-        </div>
+        <div class="wow fadeInUpBig" data-wow-delay="1s">
+            <div class="col-lg-6 col-lg-offset-3">
+                <br>
+                <p>
+                    <t>WEBMASTER -</t>
+                    Montana Kaimin<br/>
+                </p>
+                <br>
+                <p>
+                    <more>
+                        <li type="square">Successfully managed staff of 40+, spearheading new online strategies to grow
+                            web
+                            traffic by over 100%.
+                        </li>
+                        <br>
+                        <li type="square">Planned and implemented online workflow through use of social media and
+                            content
+                            management system.
+                        </li>
+                        <br>
+                        <li type="square">Use web traffic statistics to identify strengths, areas of improvement and
+                            other metrics.
+                        </li>
+                        <br>
+                        <li type="square">Redesigned www.montanakaimin.com website with cleaner UI, intuitive navigation
+                            and
+                            polished content formatting.
+                        </li>
+                    </more>
+                </p>
+                <hr></hr>
             </div>
-        <div class="wow bounceInUp">
-        <div class="col-lg-6 col-lg-offset-3">
-            <br>
-            <p>
-                <t>SYSTEM ADMINISTRATION INTERN -</t>
-                May Technology Group<br><br>
-            </p>
-            <p>
-                <more>
-                    <li type="square">Explored foundations of system administration at IT firm.</li>
-                    <br>
-                    <li type="square">Use active directory service to manage client servers, handle domain policy
-                        and information security.
-                    </li>
-                    <br>
-                    <li type="square">Compiled data from client servers with bash for internal reports, traveled onsite
-                        to install computer architecture for clients, surveyed client IT infrastructure.
-                    </li>
-                    <br>
-                    <li type="square">Learned concepts of computer networking and troubleshooting customer problems.
-                    </li>
-                </more>
-            </p>
-            <hr></hr>
-        </div>
-        <div class="col-lg-3">
-            <p>
-                <sm><br>MAY 2015 - AUGUST 2015</sm>
-                <br><br><br><br><img src="Theme/assets/img/maytech-logo.png" style="zoom:70%"></img>
-            </p>
-        </div>
+            <div class="col-lg-3">
+                <p>
+                    <sm><br>MAY 2014 - SEPTEMBER 2015</sm>
+                    <br><br><br><br><img src="Theme/assets/img/kaimin-logo.png" style="zoom:70%"></img>
+                </p>
             </div>
+        </div>
+        <div class="wow fadeInUpBig " data-wow-delay="1.5s">
+            <div class="col-lg-6 col-lg-offset-3">
+                <br>
+                <p>
+                    <t>SYSTEM ADMINISTRATION INTERN -</t>
+                    May Technology Group<br><br>
+                </p>
+                <p>
+                    <more>
+                        <li type="square">Explored foundations of system administration at IT firm.</li>
+                        <br>
+                        <li type="square">Use active directory service to manage client servers, handle domain policy
+                            and information security.
+                        </li>
+                        <br>
+                        <li type="square">Compiled data from client servers with bash for internal reports, traveled
+                            onsite
+                            to install computer architecture for clients, surveyed client IT infrastructure.
+                        </li>
+                        <br>
+                        <li type="square">Learned concepts of computer networking and troubleshooting customer problems.
+                        </li>
+                    </more>
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <p>
+                    <sm><br>MAY 2015 - AUGUST 2015</sm>
+                    <br><br><br><br><img src="Theme/assets/img/maytech-logo.png" style="zoom:70%"></img>
+                </p>
+            </div>
+        </div>
     </div><!--/.row -->
     <br>
     <hr>
@@ -299,111 +303,111 @@ git co
 
 <!--AWARDS DESCRIPTION -->
 <div class="container desc">
-    <div class="wow slideInLeft">
-    <div class="row">
-        <div class="col-lg-2 col-lg-offset-1">
-            <h5>AWARDS/HONORS</h5>
-        </div>
-        <div class="col-lg-6">
-            <p>
-                <t>Dean's List</t>
-                <br/>
-                University of Montana<br/>
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <p>
-                <sm>2013 - present</sm>
-            </p>
-        </div>
+    <div class="wow fadeInUpBig">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5>AWARDS/HONORS</h5>
+            </div>
+            <div class="col-lg-6">
+                <p>
+                    <t>Dean's List</t>
+                    <br/>
+                    University of Montana<br/>
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <p>
+                    <sm>2013 - present</sm>
+                </p>
+            </div>
 
-        <div class="col-lg-6 col-lg-offset-3">
-            <p>
-                <t>Scholar of the College of Humanities and Sciences</t>
-                <br/>
-                University of Montana
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <p>
-                <sm>2016</sm>
-            </p>
-        </div>
-        <div class="col-lg-6 col-lg-offset-3">
-            <p>
-                <t>John Forssen Memorial Scholarship from UM for professional promise</t>
-                <br/>
-                University of Montana
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <p>
-                <sm>2015</sm>
-            </p>
-        </div>
-        <div class="col-lg-6 col-lg-offset-3">
-            <p>
-                <t>Art Jette Memorial Award</t>
-                <br/>
-                University of Montana
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <p>
-                <sm>2015</sm>
-            </p>
-        </div>
-    </div><!--/.row -->
-    <br>
-</div><!--/.container -->
+            <div class="col-lg-6 col-lg-offset-3">
+                <p>
+                    <t>Scholar of the College of Humanities and Sciences</t>
+                    <br/>
+                    University of Montana
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <p>
+                    <sm>2016</sm>
+                </p>
+            </div>
+            <div class="col-lg-6 col-lg-offset-3">
+                <p>
+                    <t>John Forssen Memorial Scholarship from UM for professional promise</t>
+                    <br/>
+                    University of Montana
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <p>
+                    <sm>2015</sm>
+                </p>
+            </div>
+            <div class="col-lg-6 col-lg-offset-3">
+                <p>
+                    <t>Art Jette Memorial Award</t>
+                    <br/>
+                    University of Montana
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <p>
+                    <sm>2015</sm>
+                </p>
+            </div>
+        </div><!--/.row -->
+        <br>
+    </div><!--/.container -->
 </div>
 
 
 <!--SKILLS DESCRIPTION -->
 <div id="skillswrap">
     <div class="container">
-        <div class="wow slideInRight">
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-1">
-                <h5 style="align-content:center">SKILLS</h5>
-            </div>
-            <div class="col-lg-3 centered">
-                <p><b>Front End Programming Skills</b></p>
-                <h5>HTML5, CSS3, JavaScript, Bootstrap, JQuery, AngularJS, Ionic Framework, D3
+        <div class="wow fadeInUpBig">
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-1">
+                    <h5 style="align-content:center">SKILLS</h5>
+                </div>
+                <div class="col-lg-3 centered">
+                    <p><b>Front End Programming Skills</b></p>
+                    <h5>HTML5, CSS3, JavaScript, Bootstrap, JQuery, AngularJS, Ionic Framework, D3
+                        <br>
+
+                </div>
+                <div class="col-lg-3 centered">
+                    <p><b>Scripting Language Skills</b></p>
+                    <h5>Python, Ruby</h5>
                     <br>
+                </div>
+                <div class="col-lg-3 centered">
+                    <p><b>Object Oriented Experience</b></p>
+                    <h5>Java, C++</h5>
+                    <br>
+                </div>
 
-            </div>
-            <div class="col-lg-3 centered">
-                <p><b>Scripting Language Skills</b></p>
-                <h5>Python, Ruby</h5>
-                <br>
-            </div>
-            <div class="col-lg-3 centered">
-                <p><b>Object Oriented Experience</b></p>
-                <h5>Java, C++</h5>
-                <br>
-            </div>
+                <div class="col-lg-3 col-lg-offset-3 centered">
+                    <p><b>Communication</b></p>
+                    <h5>Strong writing, collaborative and interpersonal skills.</h5>
+                    <br>
+                </div>
+                <div class="col-lg-3 centered">
+                    <p><b>Software</b></p>
+                    <h5>Exposure to: Postman, JetBrains IDEs, Eclipse, Version control w/ Git, Adobe Creative
+                        Suite.</h5><br>
+                </div>
+                <div class="col-lg-3 centered">
+                    <p><b>Diverse Technical Skills</b></p>
+                    <h5>Programming, agile methedologies, QA testing, content management, data analytics</h5>
+                    <br>
+                </div>
 
-            <div class="col-lg-3 col-lg-offset-3 centered">
-                <p><b>Communication</b></p>
-                <h5>Strong writing, collaborative and interpersonal skills.</h5>
-                <br>
-            </div>
-            <div class="col-lg-3 centered">
-                <p><b>Software</b></p>
-                <h5>Exposure to: Postman, JetBrains IDEs, Eclipse, Version control w/ Git, Adobe Creative
-                    Suite.</h5><br>
-            </div>
-            <div class="col-lg-3 centered">
-                <p><b>Diverse Technical Skills</b></p>
-                <h5>Programming, agile methedologies, QA testing, content management, data analytics</h5>
-                <br>
-            </div>
-
-        </div><!--/.row -->
-        <br>
-    </div><!--/.container -->
-</div><!--/ #skillswrap -->
+            </div><!--/.row -->
+            <br>
+        </div><!--/.container -->
+    </div><!--/ #skillswrap -->
 </div>
 
 
@@ -414,54 +418,57 @@ git co
         <div class="col-lg-2 col-lg-offset-1">
             <h5>PORTFOLIO</h5>
         </div>
-        <div class="wow slideinLeft">
-        <div class="col-lg-6" id="ex">
-            <p><img class="img-responsive" src="Theme/assets/img/port01.png" alt=""></p>
-        </div>
-        <div class="col-lg-3">
-            <p><b>Data Visualization Program UI</b></p>
-            <p>
-                <more>Myself and a small team programmed the front end UI for professor Rob Smith in the Computer
-                    Science department at UM. We made sure the front and back ends were communicating properly,
-                    primarily using the D3 JavaScript library.<br/><br/>
-                    <sm><i class="icon-tag"></i> front-end</sm>
-                </more>
-            </p>
-        </div>
-        </div>
-        <div class="wow slideInRight">
-        <div class="col-lg-6 col-lg-offset-3">
-            <p><br><img class="img-responsive" src="Theme/assets/img/port02.png" alt=""></p><br><br>
-        </div>
-        <div class="col-lg-3">
-            <p><br><b>Montana Kaimin Website Redesign</b></p>
-            <p>
-                <more>I spent the summer of 2015 redesigning the University of Montana's student newspaper's website <a
-                        href="http://www.montanakaimin.com">www.montanakaimin.com</a>. I
-                    focused on presenting a clean and modern UI, intuitive navigation and more consistent and polished
-                    content formatting.<br/><br/>
-                    <sm><i class="icon-tag"></i> redesign, front-end</sm>
-                </more>
-            </p>
-        </div>
-        <div class="col-lg-6 col-lg-offset-3">
-            <p><br><img class="img-responsive" src="Theme/assets/img/website-screenshot.png" alt=""></p><br><br>
-        </div>
-            </div>
         <div class="wow slideInLeft">
-        <div class="col-lg-3">
-            <p><br><b>This website!</b></p>
-            <p>
-                <more>
-                    I made this website using HTML5, CSS3, Bootstrap and a little bit of JavaScript. This is the first
-                    website I've
-                    coded on my own and deployed online, so any tips or comments are very appreciated!
-                    <br>
-                    <sm><i class="icon-tag"></i> front-end</sm>
-                </more>
-            </p>
-        </div>
+            <div class="col-lg-6" id="ex">
+                <p><img class="img-responsive" src="Theme/assets/img/port01.png" alt=""></p>
             </div>
+            <div class="col-lg-3">
+                <p><b>Data Visualization Program UI</b></p>
+                <p>
+                    <more>Myself and a small team programmed the front end UI for professor Rob Smith in the Computer
+                        Science department at UM. We made sure the front and back ends were communicating properly,
+                        primarily using the D3 JavaScript library.<br/><br/>
+                        <sm><i class="icon-tag"></i> front-end</sm>
+                    </more>
+                </p>
+            </div>
+        </div>
+        <div class="wow slideInLeft" data-wow-delay="1s">
+            <div class="col-lg-6 col-lg-offset-3">
+                <p><br><img class="img-responsive" src="Theme/assets/img/port02.png" alt=""></p><br><br>
+            </div>
+            <div class="col-lg-3">
+                <p><br><b>Montana Kaimin Website Redesign</b></p>
+                <p>
+                    <more>I spent the summer of 2015 redesigning the University of Montana's student newspaper's website
+                        <a
+                                href="http://www.montanakaimin.com">www.montanakaimin.com</a>. I
+                        focused on presenting a clean and modern UI, intuitive navigation and more consistent and
+                        polished
+                        content formatting.<br/><br/>
+                        <sm><i class="icon-tag"></i> redesign, front-end</sm>
+                    </more>
+                </p>
+            </div>
+            <div class="col-lg-6 col-lg-offset-3">
+                <p><br><img class="img-responsive" src="Theme/assets/img/website-screenshot.png" alt=""></p><br><br>
+            </div>
+        </div>
+        <div class="wow slideInLeft" data-wow-delay="2s">
+            <div class="col-lg-3">
+                <p><br><b>This website!</b></p>
+                <p>
+                    <more>
+                        I made this website using HTML5, CSS3, Bootstrap and a little bit of JavaScript. This is the
+                        first
+                        website I've
+                        coded on my own and deployed online, so any tips or comments are very appreciated!
+                        <br>
+                        <sm><i class="icon-tag"></i> front-end</sm>
+                    </more>
+                </p>
+            </div>
+        </div>
 
     </div><!--/.row -->
     <br>
