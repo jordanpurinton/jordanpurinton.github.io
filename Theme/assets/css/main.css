@@ -309,18 +309,35 @@ sm {
 	padding-right: 1%;
 	padding-left: 1%;
 }
+#fb:hover
+{
+    background-color:grey;
+}
 
 #mail{
 	zoom:200%;
 	padding-right: 1%;
 	padding-left: 1%;
 }
+#mail:hover
+{
+    background-color:grey;
+}
 #linkedin{
 	zoom:200%;
 	padding-right: 1%;
 	padding-left: 1%;
-}#github{
+}
+#linkedin:hover
+{
+    background-color:grey;
+}
+#github{
 	 zoom:200%;
 	 padding-right: 1%;
 	 padding-left: 1%;
+}
+#github:hover
+{
+    background-color:grey;
 }
