@@ -9,46 +9,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/demo/async.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/demo/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/demo/simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/dist/aos.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/dist/aos.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/dist/aos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/dist/aos.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/src/js/aos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/src/js/helpers/calculateOffset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/src/js/helpers/detector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/src/js/helpers/elements.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/src/js/helpers/handleScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/src/js/helpers/prepare.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/src/js/libs/observer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/src/js/libs/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/src/sass/_easing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/src/sass/aos.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/test/aos.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/test/calculateOffset.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/test/elements.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/test/fixtures/aos-offset.fixture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/test/fixtures/aos.fixture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/aos-master/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/js/wow.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theme/assets/css/main.css" afterPath="$PROJECT_DIR$/Theme/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="jordan-purinton-website.iws" />
@@ -74,8 +35,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4975041">
-              <caret line="350" column="30" selection-start-line="350" selection-start-column="30" selection-end-line="350" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.024958402">
+              <caret line="151" column="28" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -95,8 +56,8 @@
                 <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1472150238000" expanded="true" signature="1584:1588" placeholder="..." />
-                <marker date="1472150238000" expanded="true" signature="1584:1629" placeholder="..." />
+                <marker date="1472150712000" expanded="true" signature="1584:1588" placeholder="..." />
+                <marker date="1472150712000" expanded="true" signature="1584:1629" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -737,12 +698,12 @@
       <workItem from="1472088094313" duration="197000" />
       <workItem from="1472088682820" duration="7748000" />
       <workItem from="1472146454780" duration="93000" />
-      <workItem from="1472146563992" duration="2684000" />
+      <workItem from="1472146563992" duration="3157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18888000" />
+    <option name="totallyTimeSpent" value="19361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-73" width="1920" height="1053" extended-state="6" />
@@ -811,8 +772,8 @@
             <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1472150238000" expanded="true" signature="1584:1588" placeholder="..." />
-            <marker date="1472150238000" expanded="true" signature="1584:1629" placeholder="..." />
+            <marker date="1472150712000" expanded="true" signature="1584:1588" placeholder="..." />
+            <marker date="1472150712000" expanded="true" signature="1584:1629" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -848,8 +809,8 @@
             <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1472150238000" expanded="true" signature="1584:1588" placeholder="..." />
-            <marker date="1472150238000" expanded="true" signature="1584:1629" placeholder="..." />
+            <marker date="1472150712000" expanded="true" signature="1584:1588" placeholder="..." />
+            <marker date="1472150712000" expanded="true" signature="1584:1629" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -877,8 +838,8 @@
             <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1472150238000" expanded="true" signature="1584:1588" placeholder="..." />
-            <marker date="1472150238000" expanded="true" signature="1584:1629" placeholder="..." />
+            <marker date="1472150712000" expanded="true" signature="1584:1588" placeholder="..." />
+            <marker date="1472150712000" expanded="true" signature="1584:1629" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -906,8 +867,8 @@
             <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1472150238000" expanded="true" signature="1584:1588" placeholder="..." />
-            <marker date="1472150238000" expanded="true" signature="1584:1629" placeholder="..." />
+            <marker date="1472150712000" expanded="true" signature="1584:1588" placeholder="..." />
+            <marker date="1472150712000" expanded="true" signature="1584:1629" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1130,8 +1091,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4975041">
-          <caret line="350" column="30" selection-start-line="350" selection-start-column="30" selection-end-line="350" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.024958402">
+          <caret line="151" column="28" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1151,8 +1112,8 @@
             <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1472150238000" expanded="true" signature="1584:1588" placeholder="..." />
-            <marker date="1472150238000" expanded="true" signature="1584:1629" placeholder="..." />
+            <marker date="1472150712000" expanded="true" signature="1584:1588" placeholder="..." />
+            <marker date="1472150712000" expanded="true" signature="1584:1629" placeholder="..." />
           </folding>
         </state>
       </provider>
