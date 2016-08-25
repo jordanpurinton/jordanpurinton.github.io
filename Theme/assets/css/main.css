@@ -163,7 +163,7 @@ a:after {
 		border-left: 1px solid #111;
 	}
 
-		#section-topbar ul#nav .active a:hover {
+		#section-topbar ul #nav .active a:hover {
 			background: #44bbaa;
 		}
 #section-topbar i {
@@ -311,7 +311,7 @@ sm {
 }
 #fb:hover
 {
-    background-color:grey;
+    background-color:#f85c37;
 }
 
 #mail{
@@ -321,7 +321,7 @@ sm {
 }
 #mail:hover
 {
-    background-color:grey;
+    background-color:#f85c37;
 }
 #linkedin{
 	zoom:200%;
@@ -330,7 +330,7 @@ sm {
 }
 #linkedin:hover
 {
-    background-color:grey;
+    background-color:#f85c37;
 }
 #github{
 	 zoom:200%;
@@ -339,5 +339,5 @@ sm {
 }
 #github:hover
 {
-    background-color:grey;
+    background-color:#f85c37;
 }
