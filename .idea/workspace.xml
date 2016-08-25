@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce30a505-5803-4a1f-894d-3e892b1ad6a5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theme/assets/img/website-screenshot.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/.name" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" />
@@ -35,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="328" column="14" selection-start-line="328" selection-start-column="14" selection-end-line="328" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.57256776">
+              <caret line="430" column="23" selection-start-line="430" selection-start-column="23" selection-end-line="430" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -58,13 +59,6 @@
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="atg-logo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Theme/assets/img/atg-logo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -657,12 +651,12 @@
       <workItem from="1472077139620" duration="7029000" />
       <workItem from="1472087243497" duration="258000" />
       <workItem from="1472088094313" duration="197000" />
-      <workItem from="1472088682820" duration="4549000" />
+      <workItem from="1472088682820" duration="5597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12912000" />
+    <option name="totallyTimeSpent" value="13960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-73" width="1920" height="1053" extended-state="0" />
@@ -895,10 +889,15 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Theme/assets/img/website-screenshot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="328" column="14" selection-start-line="328" selection-start-column="14" selection-end-line="328" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.57256776">
+          <caret line="430" column="23" selection-start-line="430" selection-start-column="23" selection-end-line="430" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
