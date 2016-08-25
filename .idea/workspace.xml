@@ -10,7 +10,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="jordan-purinton-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -650,12 +649,12 @@
       <workItem from="1472077139620" duration="7029000" />
       <workItem from="1472087243497" duration="258000" />
       <workItem from="1472088094313" duration="197000" />
-      <workItem from="1472088682820" duration="5858000" />
+      <workItem from="1472088682820" duration="6070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14221000" />
+    <option name="totallyTimeSpent" value="14433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-73" width="1920" height="1053" extended-state="0" />
