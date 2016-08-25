@@ -304,3 +304,23 @@ a:after {
 sm {
 	font-size: 12px;
 }
+#fb{
+	zoom:200%;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+#mail{
+	zoom:200%;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+#linkedin{
+	zoom:200%;
+	padding-right: 1%;
+	padding-left: 1%;
+}#github{
+	 zoom:200%;
+	 padding-right: 1%;
+	 padding-left: 1%;
+ }
+
