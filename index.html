@@ -19,6 +19,7 @@
           type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="Theme/assets/js/aos-master/dist/aos.css"/>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
     <link rel="stylesheet" href="Theme/assets/css/animate.css">
     <link rel="stylesheet" href="Theme/assets/css/magic.min.css">
     <script type="text/javascript" src="Theme/assets/js/aos-master/src/js/aos.js"></script>
@@ -27,18 +28,28 @@
     <script type="text/javascript" src="Theme/assets/js/wow.js"></script>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
-    <script>  wow = new WOW({
-        offset: 50,
-        mobile: false,
-    })
-    wow.init();</script>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+    <script> new WOW().init(
+            {
+                offset: 200,
+                mobile: false
+            }
+    );
+    </script>
+    <!--<script>AOS.init();</script>-->
     <!--Google analytics-->
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-83200583-1', 'auto');
         ga('send', 'pageview');
@@ -49,25 +60,25 @@
 <body data-spy="scroll" data-offset="0" data-target="#nav">
 
 <div id="section-topbar">
-    <div class="wow fadeIn" data-wow-duration="1s">
-    <div id="topbar-inner">
-        <div class="container">
-            <div class="row">
-                <div class="dropdown">
-                    <ul id="nav" class="nav">
-                        <li class="menu-item"><a class="smoothScroll" href="#home" title="Home"><i
-                                class="icon-home"></i></a></li>
-                        <li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i
-                                class="icon-user"></i></a></li>
-                        <li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i
-                                class="icon-file"></i></a></li>
-                        <li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i
-                                class="icon-briefcase"></i></a></li>
-                        <li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i
-                                class="icon-envelope"></i></a></li>
-                    </ul><!--/ uL#nav -->
-                </div><!-- /.dropdown -->
-
+    <div class="wow fadeIn">
+        <div id="topbar-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="dropdown">
+                        <ul id="nav" class="nav">
+                            <li class="menu-item"><a class="smoothScroll" href="#home" title="Home"><i
+                                    class="icon-home"></i></a></li>
+                            <li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i
+                                    class="icon-user"></i></a></li>
+                            <li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i
+                                    class="icon-file"></i></a></li>
+                            <li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i
+                                    class="icon-briefcase"></i></a></li>
+                            <li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i
+                                    class="icon-envelope"></i></a></li>
+                        </ul><!--/ uL#nav -->
+                    </div><!-- /.dropdown -->
+                </div>
                 <div class="clear"></div>
             </div><!--/.row -->
         </div><!--/.container -->
@@ -75,42 +86,45 @@
         <div class="clear"></div>
     </div><!--/ #topbar-inner -->
 </div><!--/ #section-topbar -->
-</div>
-<div class="wow fadeIn"  data-wow-duration="1s">
-    <section id="home" name="home"></section>
-    <div id="headerwrap">
-        <div class="container">
-            <div class="row centered">
+<section id="home" name="home"></section>
+<div id="headerwrap">
+    <div class="container">
+        <div class="row centered">
+            <div class="wow fadeIn">
                 <div class="col-lg-12">
                     <img src="Theme/assets/img/jordan-purinton-pic.png" id="circlepic"></img>
-                    <div class="wow spaceInUp"> <h1 style="margin-bottom: -1.5%;"><b>Jordan Purinton</b></h1>
-                    <h3 style="color: #ffffff">Programmer. Analytical Thinker. Likes when things work.</h3></div>
+                    <div class="wow spaceInUp"><h1 style="margin-bottom: -1.5%;"><b>Jordan Purinton</b></h1>
+                        <h3 style="color: #ffffff">Programmer. Analytical Thinker. Likes when things work.</h3>
+                    </div>
                     <hr>
                     <h5 style="color: white">Want to get in touch?</h5>
-                    <p>
-                        <a href="https://www.facebook.com/jordan.purinton"><i class="icon-facebook" style="color:white"
-                                                                              style="zoom: 300%"
-                                                                              style="padding-right: 110%"
-                                                                              id="fb"></i></a>
-                        <a href="mailto:jordanomac@gmail.com?Subject=Response%20From%20Portfolio%20Site"><i
-                                class="icon-comment" style="color:white" style="zoom: 300%" id="mail"></i></a>
-                        <a href="https://www.linkedin.com/in/jordanpurinton"><i class="icon-linkedin"
-                                                                                style="color:white" style="zoom: 300%"
-                                                                                id="linkedin"></i></a>
-                        <a href="https://www.github.com/jordanpurinton"><i class="icon-github" style="color:white"
-                                                                           style="zoom: 300%" id="github"></i></a>
-                    </p>
-                </div><!--/.col-lg-12 -->
-            </div><!--/.row -->
-        </div><!--/.container -->
-    </div><!--/.#headerwrap -->
-</div>
-<div class="wow fadeIn"  data-wow-duration="1s">
-    <section id="about" name="about"></section>
-    <div id="intro">
-        <div class="container">
-            <div class="row">
-
+                    <div class="wow fadeIn">
+                        <p>
+                            <a href="https://www.facebook.com/jordan.purinton"><i class="icon-facebook"
+                                                                                  style="color:white"
+                                                                                  style="zoom: 300%"
+                                                                                  style="padding-right: 110%"
+                                                                                  id="fb"></i></a>
+                            <a href="mailto:jordanomac@gmail.com?Subject=Response%20From%20Portfolio%20Site"><i
+                                    class="icon-comment" style="color:white" style="zoom: 300%" id="mail"></i></a>
+                            <a href="https://www.linkedin.com/in/jordanpurinton"><i class="icon-linkedin"
+                                                                                    style="color:white"
+                                                                                    style="zoom: 300%"
+                                                                                    id="linkedin"></i></a>
+                            <a href="https://www.github.com/jordanpurinton"><i class="icon-github" style="color:white"
+                                                                               style="zoom: 300%" id="github"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div><!--/.col-lg-12 -->
+        </div><!--/.row -->
+    </div><!--/.container -->
+</div><!--/.#headerwrap -->
+<section id="about" name="about"></section>
+<div id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="wow fadeIn">
                 <div class="col-lg-2 col-lg-offset-1">
                     <h4 style="color:white"><b>ABOUT</b></h4>
                 </div>
@@ -119,23 +133,23 @@
                     professional who's passionate about
                     leveraging technology to make people's lives better. My main areas of interest are in front end
                     web development, data analysis and tackling complex problems using the most cutting edge
-                    technology. In my spare time I enjoy listening to music, struggling at Overwatch and getting way too invested in sports.</p>
+                    technology. In my spare time I enjoy listening to music, struggling at Overwatch and getting way too
+                    invested in sports.</p>
                 </div>
                 <div class="col-lg-3">
                     <p><a href="Theme/assets/img/JordanPurinton_Resume.pdf" download>DOWNLOAD RESUME <i
                             class="icon-file"></i></a>
                     </p>
                 </div>
-
-            </div><!--/.row -->
-        </div><!--/.container -->
-    </div><!--/ #intro -->
-</div>
-<div class="wow fadeIn" data-wow-duration="1s">
-    <section id="resume" name="resume"></section>
-    <!--EDUCATION DESCRIPTION -->
-    <div class="container desc">
-        <div class="row">
+            </div>
+        </div><!--/.row -->
+    </div><!--/.container -->
+</div><!--/ #intro -->
+<section id="resume" name="resume"></section>
+<!--EDUCATION DESCRIPTION -->
+<div class="container desc">
+    <div class="row">
+        <div class="wow spaceInUp" data-wow-offset="200">
             <div class="col-lg-2 col-lg-offset-1">
                 <h4><b>EDUCATION</b></h4>
             </div>
@@ -156,26 +170,24 @@
                     </imp>
                 </p>
             </div>
-
-        </div><!--/.row -->
-        <br>
-        <hr>
-    </div><!--/.container -->
-</div>
-
-
+        </div>
+    </div><!--/.row -->
+    <br>
+    <hr>
+</div><!--/.container -->
 <!--WORK DESCRIPTION -->
-<div class="wow fadeInUpBig" data-wow-duration="1.5s">
-    <div class="container desc">
-        <div class="row">
+<div class="container desc">
+    <div class="row">
+        <div class="wow spaceInUp" data-wow-offset="200">
             <div class="col-lg-2 col-lg-offset-1">
                 <h4><b>WORK</b></h4>
             </div>
             <div class="col-lg-6">
                 <p>
-                <t>CONSULTING INTERN -</t>
-                Advanced Technology Group
-                </p><br>
+                    <t>CONSULTING INTERN -</t>
+                    Advanced Technology Group
+                </p>
+                <br>
                 <p>
                     <more>
                         <li type="square">Perform quality assurance testing, project management and cloud billing system
@@ -191,7 +203,7 @@
                         <li type="square">Reviewed internal company processes and presented findings to office.</li>
                     </more>
                 </p>
-                <hr></hr>
+                <hr>
             </div>
             <div class="col-lg-3">
                 <p>
@@ -200,125 +212,127 @@
                 </p>
             </div>
         </div>
-        <div class="wow fadeInUpBig" data-wow-duration="1.5s">
-            <div class="col-lg-6 col-lg-offset-3">
-                <p><br>
-                    <t>RESEARCH ASSISTANT -</t>
-                    University of Montana
-                </p>
-                <br>
-                <p>
-                    <more>
-                        <li type="square">Successfully collaborated in agile environment to develop mass spectrometry
-                            data
-                            visualization program.
-                        </li>
-                        <br>
-                        <li type="square">Built the front end of the visualization program using various programming
-                            languages, mostly in JavaScript.
-                        </li>
-                        <br>
-                        <li type="square">Used agile methodologies and version control with Git using feature based
-                            branch
-                            integration to assess the backlog and examine new issues/features/bugs.
-                        </li>
-                        <br>
-                        <li type="square">Project featured numerous opportunities to self-teach technologies: D3
-                            (JavaScript
-                            library), GUI controls in JavaScript, JQuery, as well as HTML, CSS and Bootstrap layout.
-                        </li>
-                    </more>
-                </p>
-                <hr></hr>
-            </div>
-            <div class="col-lg-3">
-                <p>
-                    <sm><br>AUGUST 2015 - FEBRUARY 2016</sm>
-                    <br><br><br><br><img src="Theme/assets/img/UM-logo.png" style="zoom:50%"></img>
-                </p>
-            </div>
+    </div>
+    <div class="wow spaceInUp" data-wow-offset="300">
+        <div class="col-lg-6 col-lg-offset-3">
+            <p><br>
+                <t>RESEARCH ASSISTANT -</t>
+                University of Montana
+            </p>
+            <br>
+            <p>
+                <more>
+                    <li type="square">Successfully collaborated in agile environment to develop mass spectrometry
+                        data
+                        visualization program.
+                    </li>
+                    <br>
+                    <li type="square">Built the front end of the visualization program using various programming
+                        languages, mostly in JavaScript.
+                    </li>
+                    <br>
+                    <li type="square">Used agile methodologies and version control with Git using feature based
+                        branch
+                        integration to assess the backlog and examine new issues/features/bugs.
+                    </li>
+                    <br>
+                    <li type="square">Project featured numerous opportunities to self-teach technologies: D3
+                        (JavaScript
+                        library), GUI controls in JavaScript, JQuery, as well as HTML, CSS and Bootstrap layout.
+                    </li>
+                </more>
+            </p>
+            <hr>
         </div>
-        <div class="wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="2.5s">
-            <div class="col-lg-6 col-lg-offset-3">
-                <br>
-                <p>
-                    <t>WEBMASTER -</t>
-                    Montana Kaimin<br/>
-                </p>
-                <br>
-                <p>
-                    <more>
-                        <li type="square">Successfully managed staff of 40+, spearheading new online strategies to grow
-                            web
-                            traffic by over 100%.
-                        </li>
-                        <br>
-                        <li type="square">Planned and implemented online workflow through use of social media and
-                            content
-                            management system.
-                        </li>
-                        <br>
-                        <li type="square">Use web traffic statistics to identify strengths, areas of improvement and
-                            other metrics.
-                        </li>
-                        <br>
-                        <li type="square">Redesigned www.montanakaimin.com website with cleaner UI, intuitive navigation
-                            and
-                            polished content formatting.
-                        </li>
-                    </more>
-                </p>
-                <hr></hr>
-            </div>
-            <div class="col-lg-3">
-                <p>
-                    <sm><br>MAY 2014 - SEPTEMBER 2015</sm>
-                    <br><br><br><br><img src="Theme/assets/img/kaimin-logo.png" style="zoom:70%"></img>
-                </p>
-            </div>
+
+        <div class="col-lg-3">
+            <p>
+                <sm><br>AUGUST 2015 - FEBRUARY 2016</sm>
+                <br><br><br><br><img src="Theme/assets/img/UM-logo.png" style="zoom:50%"></img>
+            </p>
         </div>
-        <div class="wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="4s">
-            <div class="col-lg-6 col-lg-offset-3">
-                <br>
-                <p>
-                    <t>SYSTEM ADMINISTRATION INTERN -</t>
-                    May Technology Group<br><br>
-                </p>
-                <p>
-                    <more>
-                        <li type="square">Explored foundations of system administration at IT firm.</li>
-                        <br>
-                        <li type="square">Use active directory service to manage client servers, handle domain policy
-                            and information security.
-                        </li>
-                        <br>
-                        <li type="square">Compiled data from client servers with bash for internal reports, traveled
-                            onsite
-                            to install computer architecture for clients, surveyed client IT infrastructure.
-                        </li>
-                        <br>
-                        <li type="square">Learned concepts of computer networking and troubleshooting customer problems.
-                        </li>
-                    </more>
-                </p>
-            </div>
-            <div class="col-lg-3">
-                <p>
-                    <sm><br>MAY 2015 - AUGUST 2015</sm>
-                    <br><br><br><br><img src="Theme/assets/img/maytech-logo.png" style="zoom:70%"></img>
-                </p>
-            </div>
+    </div>
+    <div class="wow spaceInUp" data-wow-offset="600">
+        <div class="col-lg-6 col-lg-offset-3">
+            <br>
+            <p>
+                <t>WEBMASTER -</t>
+                Montana Kaimin<br/>
+            </p>
+            <br>
+            <p>
+                <more>
+                    <li type="square">Successfully managed staff of 40+, spearheading new online strategies to grow
+                        web
+                        traffic by over 100%.
+                    </li>
+                    <br>
+                    <li type="square">Planned and implemented online workflow through use of social media and
+                        content
+                        management system.
+                    </li>
+                    <br>
+                    <li type="square">Use web traffic statistics to identify strengths, areas of improvement and
+                        other metrics.
+                    </li>
+                    <br>
+                    <li type="square">Redesigned www.montanakaimin.com website with cleaner UI, intuitive navigation
+                        and
+                        polished content formatting.
+                    </li>
+                </more>
+            </p>
+            <hr>
         </div>
-    </div><!--/.row -->
-    <br>
-    <hr>
+        <div class="col-lg-3">
+            <p>
+                <sm><br>MAY 2014 - SEPTEMBER 2015</sm>
+                <br><br><br><br><img src="Theme/assets/img/kaimin-logo.png" style="zoom:70%"></img>
+            </p>
+        </div>
+    </div>
+    <div class="wow spaceInUp" data-wow-offset="850">
+        <div class="col-lg-6 col-lg-offset-3">
+            <br>
+            <p>
+                <t>SYSTEM ADMINISTRATION INTERN -</t>
+                May Technology Group<br><br>
+            </p>
+            <p>
+                <more>
+                    <li type="square">Explored foundations of system administration at IT firm.</li>
+                    <br>
+                    <li type="square">Use active directory service to manage client servers, handle domain policy
+                        and information security.
+                    </li>
+                    <br>
+                    <li type="square">Compiled data from client servers with bash for internal reports, traveled
+                        onsite
+                        to install computer architecture for clients, surveyed client IT infrastructure.
+                    </li>
+                    <br>
+                    <li type="square">Learned concepts of computer networking and troubleshooting customer problems.
+                    </li>
+                </more>
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p>
+                <sm><br>MAY 2015 - AUGUST 2015</sm>
+                <br><br><br><br><img src="Theme/assets/img/maytech-logo.png" style="zoom:70%"></img>
+            </p>
+        </div>
+    </div>
+</div><!--/.row -->
+<br>
+<hr>
 </div><!--/.container -->
 
 
 <!--AWARDS DESCRIPTION -->
 <div class="container desc">
-    <div class="wow fadeIn" data-wow-duration="5s">
-        <div class="row">
+    <div class="row">
+        <div class="wow fadeIn" data-wow-duration="5s" data-wow-offset="200">
             <div class="col-lg-2 col-lg-offset-1">
                 <h4><b>AWARDS/HONORS</b></h4>
             </div>
@@ -376,6 +390,8 @@
                     <t>Warren Brier Scholarship from UM for professional promise</t>
                     <br/>
                     University of Montana
+                <hr id="invisibleline">
+                <hr id="invisibleline2">
                 </p>
             </div>
             <div class="col-lg-3">
@@ -385,15 +401,14 @@
             </div>
         </div><!--/.row -->
         <br>
-    </div><!--/.container -->
-</div>
-
+    </div><!--wow-->
+</div><!--/.container -->
 
 <!--SKILLS DESCRIPTION -->
 <div id="skillswrap">
     <div class="container">
-        <div class="wow fadeIn" data-wow-duration="5s">
-            <div class="row">
+        <div class="row">
+            <div class="wow fadeIn" data-wow-duration="5s" data-wow-offset="100">
                 <div class="col-lg-2 col-lg-offset-1">
                     <h4 style="color:white"><b>SKILLS</b></h4>
                 </div>
@@ -433,9 +448,8 @@
             </div><!--/.row -->
             <br>
         </div><!--/.container -->
-    </div><!--/ #skillswrap -->
-</div>
-
+    </div>
+</div><!--/ #skillswrap -->
 
 <section id="work" name="work"></section>
 <!--PORTFOLIO DESCRIPTION -->
@@ -444,7 +458,7 @@
         <div class="col-lg-2 col-lg-offset-1">
             <h4><b>PORTFOLIO</b></h4>
         </div>
-        <div class="wow spaceInRight">
+        <div class="wow slideInLeft" data-wow-offset="200">
             <div class="col-lg-6" id="ex">
                 <p><img class="img-responsive" src="Theme/assets/img/port01.png" alt=""></p>
             </div>
@@ -452,16 +466,19 @@
                 <p><b>Data Visualization Program UI</b></p>
                 <p>
                     <more>Myself and a small team programmed the front end UI for professor Rob Smith in the Computer
-                        Science department at UM. The program was developed due to the lack of reliable mass spectrometry
-                        software that is on the market. The program accepted chemical data and graphed the isotopic signature
-                        of the sample within our program. We made sure the front and back ends were communicating properly,
+                        Science department at UM. The program was developed due to the lack of reliable mass
+                        spectrometry
+                        software that is on the market. The program accepted chemical data and graphed the isotopic
+                        signature
+                        of the sample within our program. We made sure the front and back ends were communicating
+                        properly,
                         primarily using the D3 JavaScript library, JQuery, HTML, CSS and Bootstrap.<br/><br/>
                         <sm><i class="icon-tag"></i> front-end</sm>
                     </more>
                 </p>
             </div>
         </div>
-        <div class="wow spaceInRight" data-wow-delay="2s">
+        <div class="wow slideInLeft" data-wow-offset="700">
             <div class="col-lg-6 col-lg-offset-3">
                 <p><br><img class="img-responsive" src="Theme/assets/img/port02.png" alt=""></p><br><br>
             </div>
@@ -479,10 +496,11 @@
                 </p>
             </div>
         </div>
-        <div class="wow spaceInRight" data-wow-delay="4s">
+
+        <div class="wow slideInLeft" data-wow-offset="900">
             <div class="col-lg-6 col-lg-offset-3">
-            <p><br><img class="img-responsive" src="Theme/assets/img/website-screenshot.png" alt=""></p><br><br>
-                </div>
+                <p><br><img class="img-responsive" src="Theme/assets/img/website-screenshot.png" alt=""></p><br><br>
+            </div>
             <div class="col-lg-3">
                 <p><br><b>This Website!</b></p>
                 <p>
@@ -534,10 +552,14 @@
                         <sm>LINKS</sm>
                     </p>
                     <p>
-                        <a href="https://www.facebook.com/jordan.purinton"><i class="icon-facebook" style="zoom: 150%"></i></a>
-                        <a href=mailto:jordanomac@gmail.com?Subject=Response%20From%20Portfolio%20Site><i class="icon-comment" style="zoom: 150%"></i></a>
-                        <a href="https://www.linkedin.com/ln/jordanpurinton"><i class="icon-linkedin" style="zoom: 150%"></i></a>
-                        <a href="https://www.github.com/jordanpurinton"><i class="icon-github" style="zoom: 150%"></i></a>
+                        <a href="https://www.facebook.com/jordan.purinton"><i class="icon-facebook"
+                                                                              style="zoom: 150%"></i></a>
+                        <a href=mailto:jordanomac@gmail.com?Subject=Response%20From%20Portfolio%20Site><i
+                                class="icon-comment" style="zoom: 150%"></i></a>
+                        <a href="https://www.linkedin.com/ln/jordanpurinton"><i class="icon-linkedin"
+                                                                                style="zoom: 150%"></i></a>
+                        <a href="https://www.github.com/jordanpurinton"><i class="icon-github"
+                                                                           style="zoom: 150%"></i></a>
                 </div>
 
                 </p>
