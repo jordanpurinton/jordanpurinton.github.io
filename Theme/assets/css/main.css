@@ -33,7 +33,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #7B633F;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -247,7 +247,7 @@ a:after {
 
 #footwrap i {
 	padding-right: 8px;
-	color: #f85c37;
+	color: #7B633F;
 }
 
 /* Copyright Wrap */
@@ -300,7 +300,7 @@ sm {
 }
 #fb:hover
 {
-    background-color:#f85c37;
+    background-color:#7B633F;
 }
 
 #mail{
@@ -310,7 +310,7 @@ sm {
 }
 #mail:hover
 {
-    background-color:#f85c37;
+    background-color:#7B633F;
 }
 #linkedin{
 	zoom:200%;
@@ -319,7 +319,7 @@ sm {
 }
 #linkedin:hover
 {
-    background-color:#f85c37;
+    background-color:#7B633F;
 }
 #github{
 	 zoom:200%;
@@ -328,7 +328,7 @@ sm {
 }
 #github:hover
 {
-    background-color:#f85c37;
+    background-color:#7B633F;
 }
 #invisibleline{
     visibility: hidden;
