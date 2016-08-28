@@ -341,3 +341,8 @@ sm {
 	zoom:60%;
 	padding-right: 30px;
 }
+@media (max-width: 767px){
+	.skillpics{
+		visibility: hidden;
+	}
+}
