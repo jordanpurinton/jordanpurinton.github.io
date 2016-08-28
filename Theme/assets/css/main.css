@@ -336,3 +336,8 @@ sm {
 #invisibleline2{
     visibility: hidden;
 }
+.skillpics{
+	display:inline-block;
+	zoom:70%;
+	padding-right: 30px;
+}
