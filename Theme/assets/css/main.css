@@ -363,3 +363,12 @@ sm {
 		zoom:1%;
 	}
 }
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+	.skillpics{
+	}
+}
+@media (min-width:1025px) {
+	/* big landscape tablets, laptops, and desktops */
+	.skillpics {
+	}
+}
