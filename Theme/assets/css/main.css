@@ -33,7 +33,7 @@ p {
 
 /* Links */
 a {
-    color: #7B633F;
+    color: #c68d36;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -247,7 +247,7 @@ a:after {
 
 #footwrap i {
 	padding-right: 8px;
-	color: #7B633F;
+	color: #c68d36;
 }
 
 /* Copyright Wrap */
