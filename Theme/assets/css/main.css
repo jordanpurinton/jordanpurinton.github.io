@@ -1,9 +1,10 @@
-html, body{
-	margin: 0 auto;
-	overflow-x: hidden;
+html, body {
+    margin: 0 auto;
+    overflow-x: hidden;
 }
+
 body {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -19,7 +20,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     color: #333;
 }
-
 
 /* Paragraph & Typographic */
 p {
@@ -59,7 +59,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -67,39 +67,39 @@ a:after {
     margin: 1em 0;
     padding: 0;
 }
- li{
-	 margin:0;
-	 line-height: 1.4em;
- }
-#circlepic {
-	top: 100px;
 
+li {
+    margin: 0;
+    line-height: 1.4em;
 }
 
+#circlepic {
+    top: 100px;
 
+}
 
 /*---------------------------------------------------
 	3.1 Topbar
 ---------------------------------------------------*/
 
 #section-topbar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 10000;
-	overflow: hidden;
-	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    overflow: hidden;
+    font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #section-topbar a {
-  color: #fff;
+    color: #fff;
 }
 
 #topbar-inner {
-	background: #2b2b2b;
-	line-height: 0;
-	text-align: center;
+    background: #2b2b2b;
+    line-height: 0;
+    text-align: center;
 }
 
 /*
@@ -108,68 +108,67 @@ a:after {
 	By default, top navigation bar uses "fixed" position
 */
 #section-topbar ul#nav {
-	display: inline-block;
-	position: relative;
-	margin: 0;
-	padding: 0;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
 
-	border-right: 1px solid #222;
+    border-right: 1px solid #222;
 
-	/* For IE, the outcast */
-	zoom:1;
-	*display: inline;
+    /* For IE, the outcast */
+    zoom: 1;
+    *display: inline;
 }
 
 #section-topbar ul#nav > li {
-	display: block;
+    display: block;
     float: left;
     padding: 0;
 }
 
-
 #section-topbar ul#nav a {
-  display: block;
-  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  padding: 18px 20px 18px 20px;
-  border-left: 1px solid #222;
+    display: block;
+    font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 18px 20px 18px 20px;
+    border-left: 1px solid #222;
 }
 
-	#section-topbar ul#nav a:hover {
-	  background: #222;
-	  text-decoration: none;
-	  border-left: 1px solid #111;
-	}
+#section-topbar ul#nav a:hover {
+    background: #222;
+    text-decoration: none;
+    border-left: 1px solid #111;
+}
 
-	#section-topbar ul#nav .active a {
-		background: #44bbaa;
-		border-left: 1px solid #111;
-	}
+#section-topbar ul#nav .active a {
+    background: #44bbaa;
+    border-left: 1px solid #111;
+}
 
-		#section-topbar ul #nav .active a:hover {
-			background: #44bbaa;
-		}
+#section-topbar ul #nav .active a:hover {
+    background: #44bbaa;
+}
+
 #section-topbar i {
-	font-size: 25px;
+    font-size: 25px;
 }
+
 /*---------------------------------------------------
 	SECTION WRAPS
 ---------------------------------------------------*/
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
-	margin-top: 10px;
-	padding-top:140px;
-	text-align:center;
-	background-position: center center;
-	min-height: 600px;
-	width: 100%;
-	-webkit-filter: brightness(105%);
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    margin-top: 10px;
+    padding-top: 140px;
+    text-align: center;
+    background-position: center center;
+    min-height: 600px;
+    width: 100%;
+    -webkit-filter: brightness(105%);
 
-
-
-	-webkit-background-size: 100%;
+    -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
@@ -179,173 +178,171 @@ a:after {
     -o-background-size: cover;
     background-size: cover;
 }
+
 #headerwrap h1 {
-	font-size: 80px;
-	color: white;
+    font-size: 80px;
+    color: white;
 }
 
 #headerwrap h3 {
-	font-size: 20px;
-	color: white;
+    font-size: 20px;
+    color: white;
 }
 
 /* Intro Wrap */
 
 #intro {
-	background: #2c3e50;
-	padding-top: 60px;
-	padding-bottom: 60px;
-	color: white;
+    background: #2c3e50;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
 }
 
 #intro h5, p {
-	color: white;
+    color: white;
 }
 
 #intro i {
-	color: white;
-	font-size: 20px;
-	padding-right: 8px;
-	vertical-align: middle;
+    color: white;
+    font-size: 20px;
+    padding-right: 8px;
+    vertical-align: middle;
 }
 
-
 #skillswrap {
-	background: #2c3e50;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: white;
+    background: #2c3e50;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
 }
 
 #skillswrap h5, p {
-	color: white;
+    color: white;
     margin: -1px;
 }
 
 #footwrap {
-	background: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	position: relative;
-	bottom: 0;
-	left: 0;
-	width: 100%;
+    background: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 #footwrap p {
-	color: white;
+    color: white;
 }
 
 #footwrap h5 {
-	color: white;
+    color: white;
 }
 
-
 #footwrap t {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 #footwrap i {
-	padding-right: 8px;
-	color: #c68d36;
+    padding-right: 8px;
+    color: #c68d36;
 }
 
 /* Copyright Wrap */
 
 #c {
-	background: #222222;
-	padding-top: 15px;
-	text-align: right;
+    background: #222222;
+    padding-top: 15px;
+    text-align: right;
 }
 
 #c p {
-	color: white
+    color: white
 }
-
-
 
 /* Global Values */
 
 .desc {
-	padding-top: 50px;
+    padding-top: 50px;
 }
 
 .desc p {
-	color: #2f2f2f;
+    color: #2f2f2f;
 }
 
 .desc t {
-	color: #34495e;
-	font-weight: 700;
+    color: #34495e;
+    font-weight: 700;
 }
 
 .desc imp {
-	padding: 6px;
-	color: white;
-	background: #34495e;
+    padding: 6px;
+    color: white;
+    background: #34495e;
 }
 
 .desc more {
-	color: #95a5a6;
+    color: #95a5a6;
 }
-
 
 sm {
-	font-size: 12px;
-}
-#fb{
-	zoom:200%;
-	padding-right: 1%;
-	padding-left: 1%;
-}
-#fb:hover
-{
-    background-color:#2c3e50;
+    font-size: 12px;
 }
 
-#mail{
-	zoom:200%;
-	padding-right: 1%;
-	padding-left: 1%;
-}
-#mail:hover
-{
-    background-color:#2c3e50;
-}
-#linkedin{
-	zoom:200%;
-	padding-right: 1%;
-	padding-left: 1%;
-}
-#linkedin:hover
-{
-    background-color:#2c3e50;
-}
-#github{
-	 zoom:200%;
-	 padding-right: 1%;
-	 padding-left: 1%;
-}
-#github:hover
-{
-    background-color:#2c3e50;
-}
-#invisibleline{
-    visibility: hidden;
-}
-#invisibleline2{
-    visibility: hidden;
-}
-.skillpics{
-	display:inline-block;
-	zoom:60%;
-	padding-right: 30px;
+#fb {
+    zoom: 200%;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
-@media (max-width:960px) {
-	/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-	.skillpics {
-		visibility: hidden;
-		zoom:1%;
-	}
+#fb:hover {
+    background-color: #2c3e50;
+}
+
+#mail {
+    zoom: 200%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#mail:hover {
+    background-color: #2c3e50;
+}
+
+#linkedin {
+    zoom: 200%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#linkedin:hover {
+    background-color: #2c3e50;
+}
+
+#github {
+    zoom: 200%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#github:hover {
+    background-color: #2c3e50;
+}
+
+.invisibleline {
+    visibility: hidden;
+}
+
+.skillpics {
+    display: inline-block;
+    zoom: 60%;
+    padding-right: 30px;
+}
+
+@media (max-width: 960px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .skillpics {
+        visibility: hidden;
+        zoom: 1%;
+    }
 }
