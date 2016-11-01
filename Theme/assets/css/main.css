@@ -346,3 +346,9 @@ sm {
         zoom: 1%;
     }
 }
+
+#nav a{
+    zoom:90%;
+}
+
+.row
