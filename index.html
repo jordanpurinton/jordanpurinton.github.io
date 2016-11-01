@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
     <title>Jordan Purinton Website</title>
 
     <!-- Bootstrap core CSS -->
     <link href="Theme/assets/css/bootstrap.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
+    <!-- Styles -->
     <link href="Theme/assets/css/main.css" rel="stylesheet">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
     <link rel="stylesheet" href="Theme/assets/css/font-awesome.min.css">
@@ -19,20 +18,14 @@
           type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="Theme/assets/js/aos-master/dist/aos.css"/>
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
     <link rel="stylesheet" href="Theme/assets/css/animate.css">
     <link rel="stylesheet" href="Theme/assets/css/magic.min.css">
-    <link rel="stylesheet" href="drop-theme-arrows.css"/>
     <script type="text/javascript" src="Theme/assets/js/aos-master/src/js/aos.js"></script>
     <script type="text/javascript" src="Theme/assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="Theme/assets/js/smoothscroll.js"></script>
     <script type="text/javascript" src="Theme/assets/js/wow.js"></script>
-    <script src="assets/js/html5shiv.js"></script>
-    <script src="assets/js/respond.min.js"></script>
-    <script src="Theme/assets/js/drop-master/dist/js/drop.min.js>"></script>
     <script src="Theme/assets/js/drop.js"></script>
-    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
-    <meta name="google-site-verification" content="NKmMmS30cthbC8OTeaqLi5XeAhKWcDcIvK9HhRFt-0U" />
+    <meta name="google-site-verification" content="NKmMmS30cthbC8OTeaqLi5XeAhKWcDcIvK9HhRFt-0U"/>
     <script> new WOW().init(
             {
                 offset: 200,
@@ -40,29 +33,9 @@
             }
     );
     </script>
-    <!--<script>AOS.init();</script>-->
-    <!--Google analytics-->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                        (i[r].q = i[r].q || []).push(arguments)
-                    }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-83200583-1', 'auto');
-        ga('send', 'pageview');
-
-    </script>
 </head>
 
 <body data-spy="scroll" data-offset="0" data-target="#nav">
-
 <div id="section-topbar">
     <div class="wow fadeIn" data-wow-duration="2s">
         <div id="topbar-inner">
@@ -92,28 +65,21 @@
         <div class="row centered">
             <div class="wow fadeIn" data-wow-duration="2s">
                 <div class="col-lg-12">
-                    <img src="Theme/assets/img/jordan-purinton-pic.png" id="circlepic"></img>
+                    <img src="Theme/assets/img/jordan-purinton-pic.png" id="circlepic">
                     <div class="wow spaceInUp"><h1 style="margin-bottom: -1.5%;"><b>Jordan Purinton</b></h1>
                         <h3 style="color: #ffffff">Developer. Analytical Thinker. Likes when things work.</h3>
                     </div>
                     <hr>
                     <h5 style="color: white">Want to get in touch?</h5>
-                    <p>
-                        <a href="https://www.facebook.com/jordan.purinton" target="_blank"><i class="icon-facebook"
-                                                                                              style="color:white"
-                                                                                              style="zoom: 300%"
-                                                                                              style="padding-right: 110%"
-                                                                                              id="fb"></i></a>
-                        <a href="mailto:jordanomac@gmail.com?Subject=Response%20From%20Portfolio%20Site"><i
-                                class="icon-comment" style="color:white" style="zoom: 300%" id="mail"></i></a>
-                        <a href="https://www.linkedin.com/in/jordanpurinton" target="_blank"><i class="icon-linkedin"
-                                                                                                style="color:white"
-                                                                                                style="zoom: 300%"
-                                                                                                id="linkedin"></i></a>
-                        <a href="https://www.github.com/jordanpurinton" target="_blank"><i class="icon-github"
-                                                                                           style="color:white"
-                                                                                           style="zoom: 300%"
-                                                                                           id="github"></i></a>
+                    <p id="top-icons">
+                        <a href="https://www.facebook.com/jordan.purinton" target="_blank">
+                            <i class="icon-facebook"  id="fb"></i></a>
+                        <a href="mailto:jordanomac@gmail.com?Subject=Response%20From%20Portfolio%20Site">
+                            <i class="icon-comment" id="mail"></i></a>
+                        <a href="https://www.linkedin.com/in/jordanpurinton" target="_blank">
+                            <i class="icon-linkedin" id="linkedin"></i></a>
+                        <a href="https://www.github.com/jordanpurinton" target="_blank">
+                            <i class="icon-github" id="github"></i></a>
                     </p>
                 </div>
             </div><!--/.col-lg-12 -->
@@ -186,18 +152,28 @@
                 <p>
                     <more>
                         <li type="square">Built network configuration tool for ESPN's Bottom Line using Node,
-                            Express, jQuery, and Handlebars. </li><br>
+                            Express, jQuery, and Handlebars.
+                        </li>
+                        <br>
                         <li type="square">Constructed testing suite for configuration tool utilizing Mocha, Chai and
-                            Nightwatch, testing for data validation and UI functionality.</li><br>
+                            Nightwatch, testing for data validation and UI functionality.
+                        </li>
+                        <br>
                         <li type="square">Write test scripts, review code and perform QA automation in test-driven
                             dev environment with ESPN's Build & Release Team for ESPN.com and ESPN.in redesign.
-                        </li><br>
+                        </li>
+                        <br>
                         <li type="square">Use Java testing framework in conjunction with Maven, Selenium and
-                            TestNG to automate tests for ESPN.com and ESPN.in.</li><br>
+                            TestNG to automate tests for ESPN.com and ESPN.in.
+                        </li>
+                        <br>
                         <li type="square">Review pull requests, refactoring code when necessary to improve reusability,
-                            style and functionality.</li><br>
+                            style and functionality.
+                        </li>
+                        <br>
                         <li type="square">Utilize agile, continuous integration and version control methodologies with
-                            large team of remote developers.</li>
+                            large team of remote developers.
+                        </li>
                     </more>
                 </p>
                 <hr>
@@ -205,7 +181,7 @@
             <div class="col-lg-3">
                 <p>
                     <sm>SEPTEMBER 2016 - PRESENT</sm>
-                    <br><br><br><br><img src="Theme/assets/img/espn-logo.png" style="zoom:30%"></img>
+                    <br><br><br><br><img src="Theme/assets/img/espn-logo.png" style="zoom:30%">
                 </p>
             </div>
         </div>
@@ -239,7 +215,7 @@
             <div class="col-lg-3">
                 <p>
                     <sm>MAY 2016 - SEPTEMBER 2016</sm>
-                    <br><br><br><br><img src="Theme/assets/img/atg-logo.png" style="zoom:50%"></img>
+                    <br><br><br><br><img src="Theme/assets/img/atg-logo.png" style="zoom:50%">
                 </p>
             </div>
         </div>
@@ -279,7 +255,7 @@
             <div class="col-lg-3">
                 <p>
                     <sm><br>AUGUST 2015 - FEBRUARY 2016</sm>
-                    <br><br><br><br><img src="Theme/assets/img/UM-logo.png" style="zoom:50%"></img>
+                    <br><br><br><br><img src="Theme/assets/img/UM-logo.png" style="zoom:50%">
                 </p>
             </div>
         </div>
@@ -320,7 +296,7 @@
             <div class="col-lg-3">
                 <p>
                     <sm><br>MAY 2014 - SEPTEMBER 2015</sm>
-                    <br><br><br><br><img src="Theme/assets/img/kaimin-logo.png" style="zoom:70%"></img>
+                    <br><br><br><br><img src="Theme/assets/img/kaimin-logo.png" style="zoom:70%">
                 </p>
             </div>
         </div>
@@ -354,7 +330,7 @@
             <div class="col-lg-3">
                 <p>
                     <sm><br>MAY 2015 - AUGUST 2015</sm>
-                    <br><br><br><br><img src="Theme/assets/img/maytech-logo.png" style="zoom:70%"></img>
+                    <br><br><br><br><img src="Theme/assets/img/maytech-logo.png" style="zoom:70%">
                 </p>
             </div>
         </div>
@@ -479,8 +455,8 @@
                     <p class="text-center"><b>Object Oriented Experience</b></p>
                     <h5 class="text-center">Java, C++</h5>
                     <br>
-                    <p class="text-center"><b>Experience with</b></p>
-                    <h5 class="text-center">JIRA, Postman, JetBrains IDEs, Maven, Eclipse,<br>
+                    <p class="text-center"><b>Misc. Skills</b></p>
+                    <h5 class="text-center">JIRA, Postman, TeamCity, JetBrains IDEs, Eclipse,<br> Maven,
                         Version control w/ Git, Adobe Creative Suite.</h5><br>
                 </div>
             </div><!--/.row -->
@@ -585,25 +561,22 @@
                     <br/>
                 </p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3" id="footer-links">
                 <div class="wow pulse" data-wow-iteration="4">
                     <p>
                         <sm>LINKS</sm>
                     </p>
                     <p>
-                        <a href="https://www.facebook.com/jordan.purinton" target="_blank"><i class="icon-facebook"
-                                                                                              style="zoom: 150%"></i></a>
-                        <a href=mailto:jordanomac@gmail.com?Subject=Response%20From%20Portfolio%20Site
-                           target="_blank"><i
-                                class="icon-comment" style="zoom: 150%"></i></a>
-                        <a href="https://www.linkedin.com/in/jordanpurinton" target="_blank"><i
-                                class="icon-linkedin"
-                                style="zoom: 150%"></i></a>
-                        <a href="https://www.github.com/jordanpurinton" target="_blank"><i class="icon-github"
-                                                                                           style="zoom: 150%"></i></a>
+                        <a href="https://www.facebook.com/jordan.purinton" target="_blank">
+                            <i class="icon-facebook"></i></a>
+                        <a href=mailto:jordanomac@gmail.com?Subject=Response%20From%20Portfolio%20Sitetarget="_blank">
+                            <i class="icon-comment"></i></a>
+                        <a href="https://www.linkedin.com/in/jordanpurinton" target="_blank">
+                            <i class="icon-linkedin"></i></a>
+                        <a href="https://www.github.com/jordanpurinton" target="_blank">
+                            <i class="icon-github"></i></a>
+                    </p>
                 </div>
-
-                </p>
             </div>
         </div><!--/.row -->
     </div><!--/.container -->

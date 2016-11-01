@@ -351,4 +351,11 @@ sm {
     zoom:90%;
 }
 
-.row
+#footer-links i{
+    zoom:150%;
+}
+
+#top-icons i{
+    color:white;
+    zoom: 250%;
+}
