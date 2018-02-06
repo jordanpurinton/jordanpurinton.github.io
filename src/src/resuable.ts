@@ -21,7 +21,6 @@ export class Reusable {
     color: #1EC503;`;
 
     public static ListItem = styled.h4`
-    padding-top: 10px;
     font-weight: bold;
     color: white;`;
 
@@ -32,7 +31,8 @@ export class Reusable {
     public static ButtonWrapper = styled.button`
     background-color: transparent;
     border: none;
-    margin: 0 16px 20px 0;
+    padding: 0;
+    margin: 0 16px 0 0;
     &:focus {
     outline:0;
     };

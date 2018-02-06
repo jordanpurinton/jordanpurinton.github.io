@@ -6,18 +6,12 @@ const MdMail = require('react-icons/lib/md/mail');
 const FaLinkedin = require('react-icons/lib/fa/linkedin');
 const FaGithub = require('react-icons/lib/fa/github');
 const logo = require('./assets/jordan-purinton-pic.png');
+const BlackContainer = Reusable.BlackContainer;
 const ButtonWrapper = Reusable.ButtonWrapper;
 const IconStyles = Reusable.IconStyles;
 
-const Container = styled.div`
-    background-color: black;
-    color: #1EC503;
-    padding: 20px
-    height: inherit;
-    text-align: center;`;
-
 const Logo = styled.img`
-    margin: 20px 20px 0 20px;
+    margin: 0 20px 0 20px;
     height: 150px;`;
 
 const NameLabel = styled.h1`
@@ -31,6 +25,10 @@ const NameLabelSubhead = styled.h4`
 
 const IconP = styled.div`
     margin: 20px 0 0 0`;
+
+const Center = {
+    textAlign: 'center'
+};
 
 class Header extends React.Component {
 
@@ -46,7 +44,7 @@ class Header extends React.Component {
 
     render() {
         return (
-            <Container>
+            <BlackContainer style={Center}>
                 <Logo src={logo}/>
                 <NameLabel>Jordan Purinton</NameLabel>
                 <NameLabelSubhead>Developer. Likes when things work.</NameLabelSubhead>
@@ -58,7 +56,7 @@ class Header extends React.Component {
                         <ButtonWrapper onClick={() => this.onContactButtonClick('git')}>
                             <FaGithub style={IconStyles}/></ButtonWrapper>
                     </IconP>
-            </Container>
+            </BlackContainer>
         );
     }
 }
