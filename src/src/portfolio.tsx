@@ -19,7 +19,7 @@ const ImgWrapper = styled.img`
     padding: 0`;
 
 const TagContainer = styled.div`
-    padding: 8px 0 0 0;`;
+    padding: 16px 0 0 0;`;
 
 const TagText = styled.span`
     padding-left: 8px;
