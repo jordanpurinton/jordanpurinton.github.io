@@ -5,6 +5,7 @@ import MdMail from 'react-icons/lib/md/mail';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaGithub from 'react-icons/lib/fa/github';
 import logo from './assets/jordan-purinton-pic.png';
+
 const BlackContainer = Reusable.BlackContainer;
 const ButtonWrapper = Reusable.ButtonWrapper;
 const IconStyles = Reusable.IconStyles;
@@ -47,14 +48,14 @@ class Header extends React.Component {
                 <Logo src={logo}/>
                 <NameLabel>Jordan Purinton</NameLabel>
                 <NameLabelSubhead>Developer. Likes when things work.</NameLabelSubhead>
-                    <IconP>
-                        <ButtonWrapper onClick={() => this.onContactButtonClick('email')}>
-                            <MdMail style={IconStyles}/></ButtonWrapper>
-                        <ButtonWrapper onClick={() => this.onContactButtonClick('linkedin')}>
-                            <FaLinkedin style={IconStyles}/></ButtonWrapper>
-                        <ButtonWrapper onClick={() => this.onContactButtonClick('git')}>
-                            <FaGithub style={IconStyles}/></ButtonWrapper>
-                    </IconP>
+                <IconP>
+                    <ButtonWrapper onClick={() => this.onContactButtonClick('email')}>
+                        <MdMail style={IconStyles}/></ButtonWrapper>
+                    <ButtonWrapper onClick={() => this.onContactButtonClick('linkedin')}>
+                        <FaLinkedin style={IconStyles}/></ButtonWrapper>
+                    <ButtonWrapper onClick={() => this.onContactButtonClick('git')}>
+                        <FaGithub style={IconStyles}/></ButtonWrapper>
+                </IconP>
             </BlackContainer>
         );
     }

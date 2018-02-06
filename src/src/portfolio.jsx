@@ -19,7 +19,8 @@ const ImgWrapper = styled.img`
     padding: 0`;
 
 const TagContainer = styled.div`
-    padding: 16px 0 0 0;`;
+    color: white;
+    padding: 0 0 16px 0;`;
 
 const TagText = styled.span`
     padding-left: 8px;
@@ -45,8 +46,8 @@ class Portfolio extends React.Component {
                                 with an Angular front end. Led the development of the cross platform mobile app
                                 utillizing the Ionic Framework in order to publish to both the Google Play Store and the
                                 iOS App Store.
-                                <TagContainer><Tag/><TagText><b>front end, UI/UX, back end</b></TagText></TagContainer>
                             </ItemText>
+                            <TagContainer><Tag/><TagText><b>front end, UI/UX, back end</b></TagText></TagContainer>
                             <ImgWrapper src={espnPic} alt={espnPic}/>
                             <ListItem>ESPN Config Tool</ListItem>
                             <ItemText>
@@ -57,9 +58,9 @@ class Portfolio extends React.Component {
                                 constructing unit tests and GUI tests using the Mocha and Nightwatch frameworks. Used
                                 Node, Express, Handlebars, jQuery and a variety of APIs used to authenticate users and
                                 grant data access.
-                                <TagContainer><Tag/><TagText><b>back end, front end, QA
-                                    automation</b></TagText></TagContainer>
                             </ItemText>
+                            <TagContainer><Tag/><TagText><b>back end, front end, QA
+                                automation</b></TagText></TagContainer>
                             <ImgWrapper src={dataVizPic} alt={dataVizPic}/>
                             <ListItem>Data Visualization Program</ListItem>
                             <ItemText>
@@ -69,8 +70,8 @@ class Portfolio extends React.Component {
                                 graphed the isotopic signature of the sample within our program. We made sure the front
                                 and back ends were communicating properly, primarily using the D3 JavaScript library,
                                 jQuery, HTML, CSS and Bootstrap.
-                                <TagContainer><Tag/><TagText><b>front end, UI/UX</b></TagText></TagContainer>
                             </ItemText>
+                            <TagContainer><Tag/><TagText><b>front end, UI/UX</b></TagText></TagContainer>
                             <ImgWrapper src={kaiminPic} alt={kaiminPic}/>
                             <ListItem>
                                 <ExternalLink target="_blank" href="https://www.montanakaimin.com">
@@ -80,8 +81,8 @@ class Portfolio extends React.Component {
                                 I spent the summer of 2015 redesigning the University of Montana's student newspaper's
                                 website www.montanakaimin.com. I focused on presenting a clean and modern UI, intuitive
                                 navigation and more consistent and polished content formatting.
-                                <TagContainer><Tag/><TagText><b>redesign, front end, UI/UX</b></TagText></TagContainer>
                             </ItemText>
+                            <TagContainer><Tag/><TagText><b>redesign, front end, UI/UX</b></TagText></TagContainer>
                         </div>
                     </Col>
                     <Col xs={3} sm={3} md={3}/>
