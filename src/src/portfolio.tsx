@@ -10,12 +10,13 @@ const kaiminPic = require('./assets/kaimin.png');
 const {Row, Col} = require('react-bootstrap');
 const BlackContainer = Reusable.BlackContainer;
 const SectionHeader = Reusable.SectionHeader;
+const ExternalLink = Reusable.ExternalLink;
 const ListItem = Reusable.ListItem;
 const ItemText = Reusable.ItemText;
 
 const ImgWrapper = styled.img`
     width: 100%;
-    padding: 8px 0 10px 0`;
+    padding: 0`;
 
 const TagContainer = styled.div`
     padding: 8px 0 0 0;`;
@@ -34,14 +35,17 @@ class Portfolio extends React.Component {
                         <SectionHeader>Portfolio</SectionHeader>
                         <div>
                             <ImgWrapper src={osPic} alt={osPic}/>
-                            <ListItem>Orbital Shift App</ListItem>
+                            <ListItem>
+                                <ExternalLink target="_blank" href="http://bit.ly/2FOsQwx">
+                                    Orbital Shift App</ExternalLink>
+                            </ListItem>
                             <ItemText>
                                 Built and deployed a mobile application to support an already existing web application
-                                with 10,000+ daily active users. Responsible for connecting an MS SQL Server back-end
-                                with an Angular front-end. Led the development of the cross platform mobile app
+                                with 10,000+ daily active users. Responsible for connecting an MS SQL Server back end
+                                with an Angular front end. Led the development of the cross platform mobile app
                                 utillizing the Ionic Framework in order to publish to both the Google Play Store and the
                                 iOS App Store.
-                                <TagContainer><Tag/><TagText><b>front-end, UI/UX, back-end</b></TagText></TagContainer>
+                                <TagContainer><Tag/><TagText><b>front end, UI/UX, back end</b></TagText></TagContainer>
                             </ItemText>
                             <ImgWrapper src={espnPic} alt={espnPic}/>
                             <ListItem>ESPN Config Tool</ListItem>
@@ -53,7 +57,7 @@ class Portfolio extends React.Component {
                                 constructing unit tests and GUI tests using the Mocha and Nightwatch frameworks. Used
                                 Node, Express, Handlebars, jQuery and a variety of APIs used to authenticate users and
                                 grant data access.
-                                <TagContainer><Tag/><TagText><b>back-end, front-end, QA
+                                <TagContainer><Tag/><TagText><b>back end, front end, QA
                                     automation</b></TagText></TagContainer>
                             </ItemText>
                             <ImgWrapper src={dataVizPic} alt={dataVizPic}/>
@@ -65,15 +69,18 @@ class Portfolio extends React.Component {
                                 graphed the isotopic signature of the sample within our program. We made sure the front
                                 and back ends were communicating properly, primarily using the D3 JavaScript library,
                                 jQuery, HTML, CSS and Bootstrap.
-                                <TagContainer><Tag/><TagText><b>front-end, UI/UX</b></TagText></TagContainer>
+                                <TagContainer><Tag/><TagText><b>front end, UI/UX</b></TagText></TagContainer>
                             </ItemText>
                             <ImgWrapper src={kaiminPic} alt={kaiminPic}/>
-                            <ListItem>Montana Kaimin Redesign</ListItem>
+                            <ListItem>
+                                <ExternalLink target="_blank" href="https://www.montanakaimin.com">
+                                    Montana Kaimin Redesign</ExternalLink>
+                            </ListItem>
                             <ItemText>
                                 I spent the summer of 2015 redesigning the University of Montana's student newspaper's
                                 website www.montanakaimin.com. I focused on presenting a clean and modern UI, intuitive
                                 navigation and more consistent and polished content formatting.
-                                <TagContainer><Tag/><TagText><b>redesign, front-end, UI/UX</b></TagText></TagContainer>
+                                <TagContainer><Tag/><TagText><b>redesign, front end, UI/UX</b></TagText></TagContainer>
                             </ItemText>
                         </div>
                     </Col>

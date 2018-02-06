@@ -11,7 +11,7 @@ const ButtonWrapper = Reusable.ButtonWrapper;
 const IconStyles = Reusable.IconStyles;
 
 const Logo = styled.img`
-    margin: 0 20px 0 20px;
+    margin: 0 16px 0 16px;
     height: 150px;`;
 
 const NameLabel = styled.h1`
@@ -19,12 +19,12 @@ const NameLabel = styled.h1`
     font-weight: bold;
     margin: 0`;
 
-const NameLabelSubhead = styled.h4`
+const NameLabelSubhead = styled.h5`
     margin: 0;
     font-weight: 100`;
 
 const IconP = styled.div`
-    margin: 20px 0 0 0`;
+    margin: 16px 0 0 0`;
 
 const Center = {
     textAlign: 'center'
