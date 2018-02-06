@@ -1,10 +1,9 @@
 import * as React from 'react';
 import Reusable from './resuable';
-
-const MdMail = require('react-icons/lib/md/mail');
-const FaLinkedin = require('react-icons/lib/fa/linkedin');
-const FaGithub = require('react-icons/lib/fa/github');
-const {Row, Col} = require('react-bootstrap');
+import MdMail from 'react-icons/lib/md/mail';
+import FaLinkedin from 'react-icons/lib/fa/linkedin';
+import FaGithub from 'react-icons/lib/fa/github';
+import {Row, Col} from 'react-bootstrap';
 const BlackContainer = Reusable.BlackContainer;
 const ButtonWrapper = Reusable.ButtonWrapper;
 const IconStyles = Reusable.IconStyles;

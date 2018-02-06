@@ -1,11 +1,10 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import Reusable from './resuable';
-
-const MdMail = require('react-icons/lib/md/mail');
-const FaLinkedin = require('react-icons/lib/fa/linkedin');
-const FaGithub = require('react-icons/lib/fa/github');
-const logo = require('./assets/jordan-purinton-pic.png');
+import MdMail from 'react-icons/lib/md/mail';
+import FaLinkedin from 'react-icons/lib/fa/linkedin';
+import FaGithub from 'react-icons/lib/fa/github';
+import logo from './assets/jordan-purinton-pic.png';
 const BlackContainer = Reusable.BlackContainer;
 const ButtonWrapper = Reusable.ButtonWrapper;
 const IconStyles = Reusable.IconStyles;
@@ -32,7 +31,7 @@ const Center = {
 
 class Header extends React.Component {
 
-    onContactButtonClick(link: string) {
+    onContactButtonClick(link) {
         if (link === 'email') {
             window.open('mailto:jordanomac@gmail.com?Subject=Response%20From%20Portfolio%20Site');
         } else if (link === 'linkedin') {

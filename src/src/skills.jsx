@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Reusable from './resuable';
+import {Row, Col} from 'react-bootstrap';
 
 const GrayContainer = Reusable.GrayContainer;
-const {Row, Col} = require('react-bootstrap');
 const SectionHeader = Reusable.SectionHeader;
 const ListItem = Reusable.ListItem;
 const ItemText = Reusable.ItemText;

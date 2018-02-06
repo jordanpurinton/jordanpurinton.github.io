@@ -1,13 +1,13 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import Reusable from './resuable';
+import Tag from 'react-icons/lib/fa/tag';
+import {Row, Col} from 'react-bootstrap';
 
-const Tag = require('react-icons/lib/fa/tag');
 const osPic = require('./assets/os.png');
 const espnPic = require('./assets/espn.png');
 const dataVizPic = require('./assets/dataviz.png');
 const kaiminPic = require('./assets/kaimin.png');
-const {Row, Col} = require('react-bootstrap');
 const BlackContainer = Reusable.BlackContainer;
 const SectionHeader = Reusable.SectionHeader;
 const ExternalLink = Reusable.ExternalLink;
