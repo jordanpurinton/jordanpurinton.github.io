@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import FadeIn from 'react-fade-in';
 import Header from './header';
 import About from './about';
 import Portfolio from './portfolio';
@@ -16,15 +15,13 @@ const Container = styled.div`
 class App extends React.Component {
     render() {
         return (
-            <FadeIn>
-                <Container>
-                    <Header/>
-                    <About/>
-                    <Portfolio/>
-                    <Skills/>
-                    <Footer/>
-                </Container>
-            </FadeIn>
+            <Container>
+                <Header/>
+                <About/>
+                <Portfolio/>
+                <Skills/>
+                <Footer/>
+            </Container>
         );
     }
 }
