@@ -15,7 +15,7 @@ const Logo = styled.img`
     height: 150px;`;
 
 const NameLabel = styled.h1`
-    font-size: 5em;
+    font-size: 4em;
     font-weight: bold;
     margin: 0`;
 
