@@ -12,8 +12,8 @@ class About extends React.Component {
         return (
             <GrayContainer>
                 <Row>
-                    <Col xs={3} sm={3} md={3}/>
-                    <Col xs={6} sm={6} md={6}>
+                    <Col xs={4} sm={4} md={4}/>
+                    <Col xs={4} sm={4} md={4}>
                         <SectionHeader>Hi there!</SectionHeader>
                         <ItemText>
                             My name is Jordan Purinton and I'm a driven young professional who's passionate about
@@ -30,7 +30,7 @@ class About extends React.Component {
                         </ItemText>
                         <ExternalLink target="_blank" href="http://bit.ly/2BPRRVW">View Resume</ExternalLink>
                     </Col>
-                    <Col xs={3} sm={3} md={3}/>
+                    <Col xs={4} sm={4} md={4}/>
                 </Row>
             </GrayContainer>
         );

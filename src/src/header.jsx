@@ -1,5 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import ProgressiveImage from 'react-progressive-bg-image';
 import Reusable from './resuable';
 import MdMail from 'react-icons/lib/md/mail';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
@@ -10,9 +11,12 @@ const BlackContainer = Reusable.BlackContainer;
 const ButtonWrapper = Reusable.ButtonWrapper;
 const IconStyles = Reusable.IconStyles;
 
-const Logo = styled.img`
-    margin: 0 16px 0 16px;
-    height: 150px;`;
+const ImgWrapper = styled(ProgressiveImage)`
+    width: inherit;
+    height: 225px;
+    padding: 0;
+    background-size: contain;
+    background-position: center;`;
 
 const NameLabel = styled.h1`
     font-size: 3em;
@@ -45,7 +49,7 @@ class Header extends React.Component {
     render() {
         return (
             <BlackContainer style={Center}>
-                <Logo src={logo}/>
+                <ImgWrapper src={logo} placeholder={logo} transition="all .5s linear"/>
                 <NameLabel>Jordan Purinton</NameLabel>
                 <NameLabelSubhead>Developer. Likes when things work.</NameLabelSubhead>
                 <IconP>

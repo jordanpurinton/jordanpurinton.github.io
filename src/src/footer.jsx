@@ -27,8 +27,8 @@ class Footer extends React.Component {
         return (
             <BlackContainer>
                 <Row>
-                    <Col xs={3} sm={3} md={3}/>
-                    <Col xs={6} sm={6} md={6}>
+                    <Col xs={4} sm={4} md={4}/>
+                    <Col xs={4} sm={4} md={4}>
                         <SectionHeader>Contact</SectionHeader>
                         <ItemText><b>Email</b>: jordanomac@gmail.com | <b>Phone</b>: (406)-282-1020</ItemText>
                         <div>
@@ -40,7 +40,7 @@ class Footer extends React.Component {
                                 <FaGithub style={IconStyles}/></ButtonWrapper>
                         </div>
                     </Col>
-                    <Col xs={3} sm={3} md={3}/>
+                    <Col xs={4} sm={4} md={4}/>
                 </Row>
             </BlackContainer>
         );
