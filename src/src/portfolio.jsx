@@ -18,9 +18,7 @@ const ItemText = Reusable.ItemText;
 const ImgWrapper = styled(ProgressiveImage)`
     width: 100%;
     height: 327px;
-    padding: 0;
-    background-size: contain;
-    background-position: left;`;
+    padding: 0;`;
 
 const TagContainer = styled.div`
     color: white;
