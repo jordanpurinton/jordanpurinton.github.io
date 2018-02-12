@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import Reusable from './resuable';
 import Tag from 'react-icons/lib/fa/tag';

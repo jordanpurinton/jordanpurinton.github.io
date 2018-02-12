@@ -1,34 +1,31 @@
-import * as React from 'react';
+import React from 'react';
+import './index.css';
+import logo from './assets/jordan-purinton-pic.png';
+import Typist from 'react-typist';
 import styled from 'styled-components';
 import Reusable from './resuable';
 import MdMail from 'react-icons/lib/md/mail';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaGithub from 'react-icons/lib/fa/github';
-import logo from './assets/jordan-purinton-pic.png';
-
-const BlackContainer = Reusable.BlackContainer;
 const ButtonWrapper = Reusable.ButtonWrapper;
 const IconStyles = Reusable.IconStyles;
+const BlackContainer = Reusable.BlackContainer;
 
 const Logo = styled.img`
     margin: 0 16px 0 16px;
     height: 150px;`;
 
 const NameLabel = styled.h1`
-    font-size: 4em;
-    font-weight: bold;
-    margin: 0`;
-
-const NameLabelSubhead = styled.h5`
-    margin: 0;
-    font-weight: 100`;
-
-const IconP = styled.div`
-    margin: 16px 0 0 0`;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 16px 0 0 0;`;
 
 const Center = {
     textAlign: 'center'
 };
+
+const IconP = styled.div`
+    margin: 16px 0 0 0`;
 
 class Header extends React.Component {
 
@@ -46,8 +43,13 @@ class Header extends React.Component {
         return (
             <BlackContainer style={Center}>
                 <Logo src={logo}/>
-                <NameLabel>Jordan Purinton</NameLabel>
-                <NameLabelSubhead>Developer. Likes when things work.</NameLabelSubhead>
+                <NameLabel>
+                    <Typist>
+                        Hi, I'm Jordan<br/>
+                        <Typist.Delay ms={250}/>
+                        I like to build things
+                    </Typist>
+                </NameLabel>
                 <IconP>
                     <ButtonWrapper onClick={() => this.onContactButtonClick('email')}>
                         <MdMail style={IconStyles}/></ButtonWrapper>

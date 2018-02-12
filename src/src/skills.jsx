@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import Reusable from './resuable';
 import {Row, Col} from 'react-bootstrap';
 
@@ -19,7 +19,7 @@ class Skills extends React.Component {
                             <ListItem>Web/Mobile</ListItem>
                             <ItemText>
                                 HTML, CSS, JavaScript, TypeScript, Bootstrap, jQuery,
-                                Angular, React, Node.js, Express.js, Ionic Framework
+                                Angular, React, Node, Express, Ionic Framework
                             </ItemText>
                         </div>
                         <div>
