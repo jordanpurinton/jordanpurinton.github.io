@@ -20,7 +20,7 @@ class About extends React.Component {
                             When I'm not in the matrix, I enjoy working my part time job as a music snob, impulse buying Nintendo
                             Switch games and getting way too invested in sports.
                         </ItemText>
-                        <ExternalLink target="_blank" href="http://bit.ly/2BPRRVW">View Resume</ExternalLink>
+                        <ExternalLink target="_blank" href={require('./assets/JordanPurintonResume.pdf')}>View Resume</ExternalLink>
                     </Col>
                     <Col xs={4} sm={4} md={4}/>
                 </Row>
