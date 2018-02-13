@@ -3,6 +3,7 @@ import './index.css';
 import Fade from 'react-reveal/Fade';
 import logo from './assets/jordan-purinton-pic.png';
 import Typist from 'react-typist';
+import TypistLoop from 'react-typist-loop'
 import styled from 'styled-components';
 import Reusable from './resuable';
 import MdMail from 'react-icons/lib/md/mail';
@@ -17,9 +18,13 @@ const Logo = styled.img`
     margin: 0 16px 0 16px; 
     height: 125px;`;
 
-const NameLabel = styled.h6`
+const NameLabel = styled.h1`
+    font-weight: bolder;
+    margin: 8px 0 8px 0;`;
+
+const NameLabelSubhead = styled.h6`
     font-weight: 400;
-    margin: 16px 0 0 0;`;
+    margin: 0;`;
 
 const Center = {
     textAlign: 'center'
@@ -49,10 +54,19 @@ class Header extends React.Component {
                     </div>
                 </Fade>
                 <NameLabel>
-                    <Typist startDelay={1000} avgTypingDelay={90}>
-                        Hi, I'm Jordan. <Typist.Delay ms={250}/>I like to build things.
-                    </Typist>
+                    Hi, I'm Jordan.<br/>
                 </NameLabel>
+                <NameLabelSubhead>
+                    <TypistLoop interval={2500}>
+                        {[
+                            'I build websites and mobile apps.',
+                            'I design user interfaces.',
+                            'I write clean, scalable code.',
+                            'I love working in teams.',
+                            'I make software easier to use.',
+                        ].map(text => <Typist key={text} startDelay={200}>{text}</Typist>)}
+                    </TypistLoop>
+                </NameLabelSubhead>
                 <IconP>
                     <ButtonWrapper onClick={() => this.onContactButtonClick('email')}>
                         <MdMail style={IconStyles}/></ButtonWrapper>
