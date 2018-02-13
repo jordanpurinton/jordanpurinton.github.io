@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Fade from 'react-reveal/Fade';
 import Reusable from './resuable';
 import Tag from 'react-icons/lib/fa/tag';
 import {Row, Col} from 'react-bootstrap';
@@ -15,7 +16,6 @@ const ListItem = Reusable.ListItem;
 const ItemText = Reusable.ItemText;
 
 const ImgWrapper = styled.img`
-    width: 100%;
     padding: 0`;
 
 const TagContainer = styled.div`
@@ -35,7 +35,11 @@ class Portfolio extends React.Component {
                     <Col xs={4} sm={4} md={4}>
                         <SectionHeader>Portfolio</SectionHeader>
                         <div>
-                            <ImgWrapper src={osPic} alt={osPic}/>
+                            <Fade>
+                                <div>
+                                    <ImgWrapper src={osPic} alt={osPic}/>
+                                </div>
+                            </Fade>
                             <ListItem>
                                 <ExternalLink target="_blank" href="http://bit.ly/2FOsQwx">
                                     Orbital Shift App</ExternalLink>
@@ -48,7 +52,11 @@ class Portfolio extends React.Component {
                                 iOS App Store.
                             </ItemText>
                             <TagContainer><Tag/><TagText><b>front end, UI/UX, back end</b></TagText></TagContainer>
-                            <ImgWrapper src={espnPic} alt={espnPic}/>
+                            <Fade>
+                                <div>
+                                    <ImgWrapper src={espnPic} alt={espnPic}/>
+                                </div>
+                            </Fade>
                             <ListItem>ESPN Config Tool</ListItem>
                             <ItemText>
                                 Built configuration tool for ESPN's BottomLine service (aka the ticker you see at the
@@ -61,7 +69,11 @@ class Portfolio extends React.Component {
                             </ItemText>
                             <TagContainer><Tag/><TagText><b>back end, front end, QA
                                 automation</b></TagText></TagContainer>
-                            <ImgWrapper src={dataVizPic} alt={dataVizPic}/>
+                            <Fade>
+                                <div>
+                                    <ImgWrapper src={dataVizPic} alt={dataVizPic}/>
+                                </div>
+                            </Fade>
                             <ListItem>Data Visualization Program</ListItem>
                             <ItemText>
                                 Myself and a small team built the front end for professor Rob Smith in the Computer
@@ -72,7 +84,11 @@ class Portfolio extends React.Component {
                                 jQuery, HTML, CSS and Bootstrap.
                             </ItemText>
                             <TagContainer><Tag/><TagText><b>front end, UI/UX</b></TagText></TagContainer>
-                            <ImgWrapper src={kaiminPic} alt={kaiminPic}/>
+                            <Fade>
+                                <div>
+                                    <ImgWrapper src={kaiminPic} alt={kaiminPic}/>
+                                </div>
+                            </Fade>
                             <ListItem>
                                 <ExternalLink target="_blank" href="https://www.montanakaimin.com">
                                     Montana Kaimin Redesign</ExternalLink>

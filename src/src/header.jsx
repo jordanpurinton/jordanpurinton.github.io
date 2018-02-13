@@ -1,31 +1,24 @@
 import React from 'react';
 import './index.css';
+import Fade from 'react-reveal/Fade';
 import logo from './assets/jordan-purinton-pic.png';
 import Typist from 'react-typist';
 import styled from 'styled-components';
-import ProgressiveImage from 'react-progressive-bg-image';
 import Reusable from './resuable';
 import MdMail from 'react-icons/lib/md/mail';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaGithub from 'react-icons/lib/fa/github';
+
 const ButtonWrapper = Reusable.ButtonWrapper;
 const IconStyles = Reusable.IconStyles;
 const BlackContainer = Reusable.BlackContainer;
 
-const Logo = {
-    margin: '0 16px 0 16px',
-    height: '200px'
-};
+const Logo = styled.img`
+    margin: 0 16px 0 16px; 
+    height: 125px;`;
 
-const StyledProgressiveImage = styled(ProgressiveImage)`
-  height: 600px;
-  background-size: contain;
-  background-position: center center;
-`;
-
-const NameLabel = styled.h1`
-    font-size: 2em;
-    font-weight: bolder;
+const NameLabel = styled.h6`
+    font-weight: 400;
     margin: 16px 0 0 0;`;
 
 const Center = {
@@ -50,17 +43,14 @@ class Header extends React.Component {
     render() {
         return (
             <BlackContainer style={Center}>
-                <StyledProgressiveImage
-                    src={logo}
-                    placeholder={logo}
-                    style={Logo}
-                    transition="all 1s linear"
-                />
+                <Fade>
+                    <div>
+                        <Logo src={logo}/>
+                    </div>
+                </Fade>
                 <NameLabel>
-                    <Typist avgTypingDelay={90}>
-                        Hi, I'm Jordan<br/>
-                        <Typist.Delay ms={500}/>
-                        I like to build things
+                    <Typist startDelay={1000} avgTypingDelay={90}>
+                        Hi, I'm Jordan. <Typist.Delay ms={250}/>I like to build things.
                     </Typist>
                 </NameLabel>
                 <IconP>
