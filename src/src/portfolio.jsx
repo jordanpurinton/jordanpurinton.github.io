@@ -16,7 +16,8 @@ const ListItem = Reusable.ListItem;
 const ItemText = Reusable.ItemText;
 
 const ImgWrapper = styled.img`
-    padding: 0`;
+    padding: 0;
+    width: 100%`;
 
 const TagContainer = styled.div`
     color: white;
