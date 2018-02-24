@@ -6,6 +6,7 @@ import Tag from 'react-icons/lib/fa/tag';
 import {Row, Col} from 'react-bootstrap';
 
 const osPic = require('./assets/os.png');
+const osPic2 = require('./assets/os2.png');
 const espnPic = require('./assets/espn.png');
 const dataVizPic = require('./assets/dataviz.png');
 const kaiminPic = require('./assets/kaimin.png');
@@ -38,18 +39,19 @@ class Portfolio extends React.Component {
                         <div>
                             <Fade>
                                 <div>
-                                    <ImgWrapper src={osPic} alt={osPic}/>
+                                    <ImgWrapper src={osPic} alt={osPic}/><br/><br/>
+                                    <ImgWrapper src={osPic2} alt={osPic2}/>
                                 </div>
                             </Fade>
                             <ListItem>
                                 <ExternalLink target="_blank" href="http://bit.ly/2FOsQwx">
-                                    Orbital Shift App</ExternalLink>
+                                    Employee App</ExternalLink> | <ExternalLink target="_blank" href="http://bit.ly/2HJ2Ape">Punch Clock App</ExternalLink>
                             </ListItem>
                             <ItemText>
-                                Built and deployed a mobile application to support an already existing web application
+                                Built and deployed two mobile application to support an already existing web application
                                 with 10,000+ daily active users. Responsible for connecting an MS SQL Server back end
-                                with an Angular front end. Led the development of the cross platform mobile app
-                                utillizing the Ionic Framework in order to publish to both the Google Play Store and the
+                                with an Angular front end. Led the development of the cross platform mobile apps
+                                utilizing the Ionic Framework in order to publish to both the Google Play Store and the
                                 iOS App Store.
                             </ItemText>
                             <TagContainer><Tag/><TagText><b>front end, UI/UX, back end</b></TagText></TagContainer>
