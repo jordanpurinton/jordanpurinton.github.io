@@ -45,7 +45,8 @@ class Portfolio extends React.Component {
                             </Fade>
                             <ListItem>
                                 <ExternalLink target="_blank" href="http://bit.ly/2FOsQwx">
-                                    Employee App</ExternalLink> | <ExternalLink target="_blank" href="http://bit.ly/2HJ2Ape">Punch Clock App</ExternalLink>
+                                    Employee App</ExternalLink><br/>
+                                <ExternalLink target="_blank" href="http://bit.ly/2HJ2Ape">Punch Clock App</ExternalLink>
                             </ListItem>
                             <ItemText>
                                 Built and deployed two mobile application to support an already existing web application
