@@ -49,8 +49,8 @@ class Portfolio extends React.Component {
                                 <ExternalLink target="_blank" href="http://bit.ly/2HJ2Ape">Punch Clock App</ExternalLink>
                             </ListItem>
                             <ItemText>
-                                Built and deployed two mobile application to support an already existing web application
-                                with 10,000+ daily active users. Responsible for connecting an MS SQL Server back end
+                                Built and deployed two mobile application to support an already existing web application,
+                                servicing several thousand daily users. Responsible for connecting an MS SQL Server back end
                                 with an Angular front end. Led the development of the cross platform mobile apps
                                 utilizing the Ionic Framework in order to publish to both the Google Play Store and the
                                 iOS App Store.
