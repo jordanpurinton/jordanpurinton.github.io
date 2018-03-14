@@ -6,7 +6,8 @@ import FaGithub from 'react-icons/lib/fa/github';
 import {Row, Col} from 'react-bootstrap';
 
 const BlackContainer = Reusable.BlackContainer;
-const ButtonWrapper = Reusable.ButtonWrapper;
+const ContainerDivider = Reusable.ContainerDivider;
+const ButtonWrapperBottom = Reusable.ButtonWrapperBottom;
 const IconStyles = Reusable.IconStyles;
 const SectionHeader = Reusable.SectionHeader;
 const ItemText = Reusable.ItemText;
@@ -26,18 +27,19 @@ class Footer extends React.Component {
     render() {
         return (
             <BlackContainer>
+                <ContainerDivider/>
                 <Row>
                     <Col xs={4} sm={4} md={4}/>
                     <Col xs={4} sm={4} md={4}>
                         <SectionHeader>Contact</SectionHeader>
                         <ItemText><b>Email</b>: jordanomac@gmail.com | <b>Phone</b>: (406)-282-1020</ItemText>
                         <div>
-                            <ButtonWrapper onClick={() => this.onContactButtonClick('email')}>
-                                <MdMail style={IconStyles}/></ButtonWrapper>
-                            <ButtonWrapper onClick={() => this.onContactButtonClick('linkedin')}>
-                                <FaLinkedin style={IconStyles}/></ButtonWrapper>
-                            <ButtonWrapper onClick={() => this.onContactButtonClick('git')}>
-                                <FaGithub style={IconStyles}/></ButtonWrapper>
+                            <ButtonWrapperBottom onClick={() => this.onContactButtonClick('email')}>
+                                <MdMail style={IconStyles}/></ButtonWrapperBottom>
+                            <ButtonWrapperBottom onClick={() => this.onContactButtonClick('linkedin')}>
+                                <FaLinkedin style={IconStyles}/></ButtonWrapperBottom>
+                            <ButtonWrapperBottom onClick={() => this.onContactButtonClick('git')}>
+                                <FaGithub style={IconStyles}/></ButtonWrapperBottom>
                         </div>
                     </Col>
                     <Col xs={4} sm={4} md={4}/>

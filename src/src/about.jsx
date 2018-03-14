@@ -1,7 +1,8 @@
 import React from 'react';
 import Reusable from './resuable';
 import {Row, Col} from 'react-bootstrap';
-const GrayContainer = Reusable.GrayContainer;
+const BlackContainer = Reusable.BlackContainer;
+const ContainerDivider = Reusable.ContainerDivider;
 const SectionHeader = Reusable.SectionHeader;
 const ItemText = Reusable.ItemText;
 const ExternalLink = Reusable.ExternalLink;
@@ -9,7 +10,8 @@ const ExternalLink = Reusable.ExternalLink;
 class About extends React.Component {
     render() {
         return (
-            <GrayContainer>
+            <BlackContainer>
+                <ContainerDivider/>
                 <Row>
                     <Col xs={4} sm={4} md={4}/>
                     <Col xs={4} sm={4} md={4}>
@@ -24,7 +26,7 @@ class About extends React.Component {
                     </Col>
                     <Col xs={4} sm={4} md={4}/>
                 </Row>
-            </GrayContainer>
+            </BlackContainer>
         );
     }
 }

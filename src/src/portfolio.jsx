@@ -11,6 +11,7 @@ const espnPic = require('./assets/espn.png');
 const dataVizPic = require('./assets/dataviz.png');
 const kaiminPic = require('./assets/kaimin.png');
 const BlackContainer = Reusable.BlackContainer;
+const ContainerDivider = Reusable.ContainerDivider;
 const SectionHeader = Reusable.SectionHeader;
 const ExternalLink = Reusable.ExternalLink;
 const ListItem = Reusable.ListItem;
@@ -21,7 +22,7 @@ const ImgWrapper = styled.img`
     width: 100%`;
 
 const TagContainer = styled.div`
-    color: white;
+    color: #666;
     padding: 0 0 16px 0;`;
 
 const TagText = styled.span`
@@ -32,6 +33,7 @@ class Portfolio extends React.Component {
     render() {
         return (
             <BlackContainer>
+                <ContainerDivider/>
                 <Row>
                     <Col xs={4} sm={4} md={4}/>
                     <Col xs={4} sm={4} md={4}>

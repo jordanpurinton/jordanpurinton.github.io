@@ -20,6 +20,7 @@ const Logo = styled.img`
 
 const NameLabel = styled.h1`
     font-weight: bolder;
+    font-size: 64px;
     margin: 8px 0 8px 0;`;
 
 const NameLabelSubhead = styled.h6`
@@ -27,11 +28,13 @@ const NameLabelSubhead = styled.h6`
     margin: 0;`;
 
 const Center = {
-    textAlign: 'center'
+    textAlign: 'center',
+    paddingTop: '5%',
+    paddingBottom: '5%'
 };
 
-const IconP = styled.div`
-    margin: 16px 0 0 0`;
+const IconDiv = styled.div`
+    margin: 32px 0 0 0`;
 
 class Header extends React.Component {
 
@@ -66,14 +69,14 @@ class Header extends React.Component {
                         ].map(text => <Typist key={text} startDelay={200}>{text}</Typist>)}
                     </TypistLoop>
                 </NameLabelSubhead>
-                <IconP>
+                <IconDiv>
                     <ButtonWrapper onClick={() => this.onContactButtonClick('email')}>
                         <MdMail style={IconStyles}/></ButtonWrapper>
                     <ButtonWrapper onClick={() => this.onContactButtonClick('linkedin')}>
                         <FaLinkedin style={IconStyles}/></ButtonWrapper>
                     <ButtonWrapper onClick={() => this.onContactButtonClick('git')}>
                         <FaGithub style={IconStyles}/></ButtonWrapper>
-                </IconP>
+                </IconDiv>
             </BlackContainer>
         );
     }

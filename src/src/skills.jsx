@@ -2,7 +2,8 @@ import React from 'react';
 import Reusable from './resuable';
 import {Row, Col} from 'react-bootstrap';
 
-const GrayContainer = Reusable.GrayContainer;
+const BlackContainer = Reusable.BlackContainer;
+const ContainerDivider = Reusable.ContainerDivider;
 const SectionHeader = Reusable.SectionHeader;
 const ListItem = Reusable.ListItem;
 const ItemText = Reusable.ItemText;
@@ -10,7 +11,8 @@ const ItemText = Reusable.ItemText;
 class Skills extends React.Component {
     render() {
         return (
-            <GrayContainer>
+            <BlackContainer>
+                <ContainerDivider/>
                 <Row>
                     <Col xs={4} sm={4} md={4}/>
                     <Col xs={4} sm={4} md={4}>
@@ -45,7 +47,7 @@ class Skills extends React.Component {
                     </Col>
                     <Col xs={4} sm={4} md={4}/>
                 </Row>
-            </GrayContainer>
+            </BlackContainer>
         );
     }
 }

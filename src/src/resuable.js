@@ -5,20 +5,17 @@ export class Reusable {
     static BlackContainer = styled.div`
     background-color: black;
     color: #1EC503;
-    padding: 16px;
+    padding: 0 32px 32px 32px;
     height: inherit;
     text-align: left;`;
 
-    static GrayContainer = styled.div`
-    background-color: #212121;
-    color: #1EC503;
-    padding: 16px;
-    height: inherit;
-    text-align: left;`;
+    static ContainerDivider = styled.hr`
+    margin: 0 0 32px 0;
+    border-top: solid 1px rgba(255,255,255,.25)`;
 
     static SectionHeader = styled.h2`
     font-weight: bold;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
     color: #1EC503;`;
 
     static ExternalLink = styled.a`
@@ -41,18 +38,31 @@ export class Reusable {
     background-color: transparent;
     border: none;
     padding: 0;
-    margin: 0 16px 0 0;
+    margin: 0 16px 0 16px;
     &:focus {
     outline:0;
     };
     &:hover {
-    background-color: #212121;
+    background-color: darkgray;
+    cursor: pointer;
+    }`;
+
+    static ButtonWrapperBottom = styled.button`
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0 32px 0 0;
+    &:focus {
+    outline:0;
+    };
+    &:hover {
+    background-color: darkgray;
     cursor: pointer;
     }`;
 
     static IconStyles = {
-        fontSize: 20,
-        color: 'white',
+        fontSize: 24,
+        color: '#666',
         padding: 0,
     };
 }
