@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export class Reusable {
 
     static BlackContainer = styled.div`
-    background-color: black;
-    color: #1EC503;
+    background-color: #012456;
+    color: white;
     padding: 0 32px 32px 32px;
     height: inherit;
     text-align: left;`;
@@ -16,7 +16,7 @@ export class Reusable {
     static SectionHeader = styled.h2`
     font-weight: bold;
     margin-bottom: 32px;
-    color: #1EC503;`;
+    color: white;`;
 
     static ExternalLink = styled.a`
     color: white;
@@ -62,7 +62,7 @@ export class Reusable {
 
     static IconStyles = {
         fontSize: 24,
-        color: '#666',
+        color: 'white',
         padding: 0,
     };
 }
