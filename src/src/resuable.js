@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export class Reusable {
 
-    static BlackContainer = styled.div`
+    static BlueContainer = styled.div`
     background-color: #012456;
     color: white;
     padding: 0 32px 32px 32px;

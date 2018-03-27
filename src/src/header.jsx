@@ -12,7 +12,7 @@ import FaGithub from 'react-icons/lib/fa/github';
 
 const ButtonWrapper = Reusable.ButtonWrapper;
 const IconStyles = Reusable.IconStyles;
-const BlackContainer = Reusable.BlackContainer;
+const BlueContainer = Reusable.BlueContainer;
 
 const Logo = styled.img`
     margin: 0 16px 0 16px; 
@@ -50,7 +50,7 @@ class Header extends React.Component {
 
     render() {
         return (
-            <BlackContainer style={Center}>
+            <BlueContainer style={Center}>
                 <Fade>
                     <div>
                         <Logo src={logo}/>
@@ -77,7 +77,7 @@ class Header extends React.Component {
                     <ButtonWrapper onClick={() => this.onContactButtonClick('git')}>
                         <FaGithub style={IconStyles}/></ButtonWrapper>
                 </IconDiv>
-            </BlackContainer>
+            </BlueContainer>
         );
     }
 }

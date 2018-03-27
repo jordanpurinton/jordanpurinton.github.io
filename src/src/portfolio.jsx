@@ -10,7 +10,7 @@ const osPic2 = require('./assets/os2.png');
 const espnPic = require('./assets/espn.png');
 const dataVizPic = require('./assets/dataviz.png');
 const kaiminPic = require('./assets/kaimin.png');
-const BlackContainer = Reusable.BlackContainer;
+const BlueContainer = Reusable.BlueContainer;
 const ContainerDivider = Reusable.ContainerDivider;
 const SectionHeader = Reusable.SectionHeader;
 const ExternalLink = Reusable.ExternalLink;
@@ -32,7 +32,7 @@ const TagText = styled.span`
 class Portfolio extends React.Component {
     render() {
         return (
-            <BlackContainer>
+            <BlueContainer>
                 <ContainerDivider/>
                 <Row>
                     <Col xs={4} sm={4} md={4}/>
@@ -109,7 +109,7 @@ class Portfolio extends React.Component {
                     </Col>
                     <Col xs={4} sm={4} md={4}/>
                 </Row>
-            </BlackContainer>
+            </BlueContainer>
         );
     }
 }
