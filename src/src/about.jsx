@@ -1,11 +1,12 @@
 import React from 'react';
 import Reusable from './resuable';
 import {Row, Col} from 'react-bootstrap';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Button from 'material-ui/RaisedButton';
 const WhiteContainer = Reusable.WhiteContainer;
 const ContainerDivider = Reusable.ContainerDivider;
 const SectionHeader = Reusable.SectionHeader;
 const ItemText = Reusable.ItemText;
-const ExternalLink = Reusable.ExternalLink;
 
 class About extends React.Component {
     render() {
@@ -22,7 +23,9 @@ class About extends React.Component {
                             When I'm not in the matrix, I enjoy working my part time job as a music snob, impulse buying Nintendo
                             Switch games and getting way too invested in sports.
                         </ItemText>
-                        <ExternalLink target="_blank" href={require('./assets/JordanPurintonResume.pdf')}>View Resume</ExternalLink>
+                        <MuiThemeProvider>
+                            <Button label="View Resume" primary={true} target="_blank" href={require('./assets/JordanPurintonResume.pdf')}></Button>
+                        </MuiThemeProvider>
                     </Col>
                     <Col xs={4} sm={4} md={4}/>
                 </Row>
