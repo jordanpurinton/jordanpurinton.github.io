@@ -2,24 +2,24 @@ import styled from 'styled-components';
 
 export class Reusable {
 
-    static BlueContainer = styled.div`
-    background-color: #012456;
-    color: white;
+    static WhiteContainer = styled.div`
+    background-color: white;
+    color: #666;
     padding: 0 32px 32px 32px;
     height: inherit;
     text-align: left;`;
 
     static ContainerDivider = styled.hr`
     margin: 0 0 32px 0;
-    border-top: solid 1px rgba(255,255,255,.25)`;
+    border-top: solid 1px rgba(0,0,0,.1)`;
 
     static SectionHeader = styled.h2`
     font-weight: bold;
     margin-bottom: 32px;
-    color: white;`;
+    color: #666;`;
 
     static ExternalLink = styled.a`
-    color: white;
+    color: #666;
     text-decoration: underline;
     font-weight: bold;
     text-align: center;`;
@@ -27,12 +27,12 @@ export class Reusable {
     static ListItem = styled.h4`
     font-weight: bold;
     margin: 16px 0 16px 0;
-    color: white;`;
+    color: #666;`;
 
     static ItemText = styled.p`
     line-height: 1.8;
     margin-bottom: 16px;
-    color: white;`;
+    color: #666;`;
 
     static ButtonWrapper = styled.button`
     background-color: transparent;
@@ -62,7 +62,7 @@ export class Reusable {
 
     static IconStyles = {
         fontSize: 24,
-        color: 'white',
+        color: '#666',
         padding: 0,
     };
 }

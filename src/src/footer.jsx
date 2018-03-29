@@ -5,7 +5,7 @@ import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaGithub from 'react-icons/lib/fa/github';
 import {Row, Col} from 'react-bootstrap';
 
-const BlueContainer = Reusable.BlueContainer;
+const WhiteContainer = Reusable.WhiteContainer;
 const ContainerDivider = Reusable.ContainerDivider;
 const ButtonWrapperBottom = Reusable.ButtonWrapperBottom;
 const IconStyles = Reusable.IconStyles;
@@ -26,7 +26,7 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <BlueContainer>
+            <WhiteContainer>
                 <ContainerDivider/>
                 <Row>
                     <Col xs={4} sm={4} md={4}/>
@@ -44,7 +44,7 @@ class Footer extends React.Component {
                     </Col>
                     <Col xs={4} sm={4} md={4}/>
                 </Row>
-            </BlueContainer>
+            </WhiteContainer>
         );
     }
 }
