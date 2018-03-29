@@ -1,11 +1,11 @@
 import React from 'react';
 import './index.css';
 import Fade from 'react-reveal/Fade';
-import logo from './assets/jordan-purinton-pic.png';
+import me from './assets/jordan-purinton-pic.png';
 import Typist from 'react-typist';
 import TypistLoop from 'react-typist-loop'
 import styled from 'styled-components';
-import Reusable from './resuable';
+import Reusable from './reusable';
 import MdMail from 'react-icons/lib/md/mail';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaGithub from 'react-icons/lib/fa/github';
@@ -53,7 +53,7 @@ class Header extends React.Component {
             <WhiteContainer style={Center}>
                 <Fade>
                     <div>
-                        <Logo src={logo}/>
+                        <Logo src={me}/>
                     </div>
                 </Fade>
                 <NameLabel>

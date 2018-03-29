@@ -1,35 +1,61 @@
 import React from 'react';
-import { Card, CardActions, CardMedia, CardTitle, CardText } from 'material-ui/Card';
-import Button from 'material-ui/RaisedButton';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-const fontStyle = {
-    color: '#666',
-    lineHeight: 1.8
-};
-const buttonStyles = {
-    marginLeft: '7px',
-    marginBottom: '18px'
+import PropTypes from 'prop-types';
+import { withStyles } from 'material-ui/styles';
+import Card, { CardActions, CardContent, CardMedia, CardHeader } from 'material-ui/Card';
+import Avatar from 'material-ui/Avatar';
+import Button from 'material-ui/Button';
+import Typography from 'material-ui/Typography';
+import Tag from 'react-icons/lib/fa/tag';
+
+const styles = {
+    text: {
+        lineHeight: 1.8,
+        color: '#666'
+    },
+    subhead: {
+        marginTop: '6px',
+        lineHeight: 1.8,
+        color: 'darkgray'
+    },
+    button: {
+        marginLeft: '10px',
+        marginBottom: '17px',
+        '&:hover': {
+            color: 'lightgray',
+        },
+    },
+    card: {
+        maxWidth: '100%',
+    },
+    media: {
+        height: 327,
+    }
 };
 
-class PortfolioCard extends React.Component {
-    render() {
-        return (
-            <MuiThemeProvider>
-                <Card>
-                    <CardMedia><img src={this.props.img} alt={this.props.img}/></CardMedia>
-                    <CardTitle title={this.props.title} subtitle={this.props.sub} style={fontStyle}/>
-                    <CardText style={fontStyle}>{this.props.text}</CardText>
-                    <CardActions>
-                        {this.props.link ?
-                            <Button style={buttonStyles} label={this.props.buttonText} primary={true} href={this.props.link} target="_blank"/>
-                            : null}
-                        {this.props.link2 ?
-                            <Button style={buttonStyles} label={this.props.buttonText2} secondary={true} href={this.props.link2} target="_blank"/>
-                            : null}
-                    </CardActions>
-                </Card>
-            </MuiThemeProvider>
-        )
-    }
+function PortfolioCard(props) {
+    const { classes } = props;
+    return (
+        <div>
+            <Card className={classes.card}>
+                <CardHeader title={props.org} subheader={props.appType} avatar={<Avatar src={props.avatarImg}></Avatar>}>
+                </CardHeader>
+                <CardMedia className={classes.media} image={props.img} />
+                <CardContent>
+                    <Typography gutterBottom variant="headline">{props.title}</Typography>
+                    <Typography className={classes.text}>{props.text}</Typography>
+                    <Typography className={classes.subhead}><Tag/>    {props.subhead}</Typography>
+                </CardContent>
+                <CardActions>
+                    {props.buttonText ? <Button href={props.link} target="_blank" variant="raised" color="primary" className={classes.button}>{props.buttonText}</Button> : null}
+                    {props.buttonText2 ? <Button href={props.link2} target="_blank" variant="raised" color="secondary" className={classes.button}>{props.buttonText2}</Button> : null}
+                </CardActions>
+            </Card>
+        </div>
+    );
 }
-export default PortfolioCard;
+
+PortfolioCard.propTypes = {
+    classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(PortfolioCard);

@@ -1,5 +1,5 @@
 import React from 'react';
-import Reusable from './resuable';
+import Reusable from './reusable';
 import {Row, Col} from 'react-bootstrap';
 
 const WhiteContainer = Reusable.WhiteContainer;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Reusable from './resuable';
+import Reusable from './reusable';
 import MdMail from 'react-icons/lib/md/mail';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaGithub from 'react-icons/lib/fa/github';
