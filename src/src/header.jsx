@@ -53,11 +53,11 @@ class Header extends React.Component {
             <WhiteContainer style={Center}>
                 <Fade>
                     <div>
-                        <Logo src={me}/>
+                        <Logo src={me} />
                     </div>
                 </Fade>
                 <NameLabel>
-                    Hi, I'm Jordan.<br/>
+                    Hi, I'm Jordan.<br />
                 </NameLabel>
                 <NameLabelSubhead>
                     <TypistLoop interval={2500}>
@@ -70,14 +70,16 @@ class Header extends React.Component {
                         ].map(text => <Typist key={text} startDelay={200}>{text}</Typist>)}
                     </TypistLoop>
                 </NameLabelSubhead>
-                <IconDiv>
-                    <ButtonWrapper onClick={() => this.onContactButtonClick('email')}>
-                        <MdMail style={IconStyles}/></ButtonWrapper>
-                    <ButtonWrapper onClick={() => this.onContactButtonClick('linkedin')}>
-                        <FaLinkedin style={IconStyles}/></ButtonWrapper>
-                    <ButtonWrapper onClick={() => this.onContactButtonClick('git')}>
-                        <FaGithub style={IconStyles}/></ButtonWrapper>
-                </IconDiv>
+                <Fade>
+                    <IconDiv>
+                        <ButtonWrapper onClick={() => this.onContactButtonClick('email')}>
+                            <MdMail style={IconStyles} /></ButtonWrapper>
+                        <ButtonWrapper onClick={() => this.onContactButtonClick('linkedin')}>
+                            <FaLinkedin style={IconStyles} /></ButtonWrapper>
+                        <ButtonWrapper onClick={() => this.onContactButtonClick('git')}>
+                            <FaGithub style={IconStyles} /></ButtonWrapper>
+                    </IconDiv>
+                </Fade>
             </WhiteContainer>
         );
     }

@@ -38,18 +38,18 @@ class PortfolioCard extends React.Component {
         return (
             <Fade>
                 <Card style={styles.card}>
-                    <CardHeader title={this.props.org} subheader={this.props.appType} avatar={<Avatar src={this.props.avatarImg}></Avatar>}>
-                    </CardHeader>
+                    <CardHeader title={this.props.data.title} subheader={this.props.data.appType} avatar={<Avatar src={this.props.avatarImg}></Avatar>}>
+                    </CardHeader> 
                     <CardMedia style={styles.media} image={this.props.img} />
                     <CardContent>
-                        <Typography gutterBottom variant="headline"><b>{this.props.title}</b></Typography>
-                        <Typography style={styles.text}>{this.props.text}</Typography>
-                        <Typography style={styles.subhead}><Tag />    {this.props.subhead}</Typography>
-                        {this.props.nonPublicIndicator ? <Typography style={styles.nonpublic}>* Not a public facing app</Typography> : null}
+                        <Typography gutterBottom variant="headline"><b>{this.props.data.title}</b></Typography>
+                        <Typography style={styles.text}>{this.props.data.text}</Typography>
+                        <Typography style={styles.subhead}><Tag />    {this.props.data.subhead}</Typography>
+                        {this.props.data.nonPublicIndicator ? <Typography style={styles.nonpublic}>* Not a public facing app</Typography> : null}
                     </CardContent>
                     <CardActions>
-                        {this.props.buttonText ? <a href={this.props.link} target="_blank" style={styles.button}>{this.props.buttonText}</a> : null}
-                        {this.props.buttonText2 ? <a href={this.props.link2} target="_blank" style={styles.button}>{this.props.buttonText2}</a> : null}
+                        {this.props.data.buttonText ? <a href={this.props.data.link} target="_blank" style={styles.button}>{this.props.data.buttonText}</a> : null}
+                        {this.props.data.buttonText2 ? <a href={this.props.data.link2} target="_blank" style={styles.button}>{this.props.data.buttonText2}</a> : null}
                     </CardActions>
                 </Card>
             </Fade>
