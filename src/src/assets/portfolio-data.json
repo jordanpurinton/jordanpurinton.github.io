@@ -1,0 +1,47 @@
+{
+	"0": {
+		"org": "Orbital Shift, LLC",
+		"appType": "Mobile Apps",
+		"title": "Orbital Shift Apps",
+		"subhead": "business application, front end, back end/API, UI/UX",
+		"text": "Built and deployed two mobile applications to support an already existing web application, servicing several thousand daily users. Responsible for connecting an MS SQL Server back end with an Angular front end. Led the development of the cross platform mobile apps utilizing the Ionic Framework in order to publish to both the Google Play Store and the iOS App Store.",
+		"buttonText": "View Employee App",
+		"buttonText2": "View Punch Clock App",
+		"link": "http://bit.ly/2FOsQwx",
+		"link2": "http://bit.ly/2HJ2Ape"
+	},
+	"1": {
+		"org": "ESPN",
+		"appType": "Web App",
+		"title": "ESPN Config Tool",
+		"subhead": "media configuration tool, front end, back end/API, UI/UX",
+		"text": "Built configuration tool for ESPN's BottomLine service (aka the ticker you see at the bottom of your screen with sports news and scores). Allows users to remotely restart the software on a variety of playout machines that ESPN uses to broadcast its various channels. I saw this project end to end, from building the UI and accessing the data, to constructing unit tests and GUI tests using the Mocha and Nightwatch frameworks. Used Node, Express, Handlebars, jQuery and a variety of APIs used to authenticate users and grant data access.",
+		"nonPublicIndicator": true 
+	},
+	"2": {
+		"org": "Jordan Purinton",
+		"appType": "Desktop App",
+		"title": "Simon Says Game",
+		"subhead": "side project, front end",
+		"text": " Built a small version of the classic Simon Says game using turtle graphics and tkSimpleDialog. The game prompts the user with several different colors, and the more colors that the user guesses, the longer the game keeps going. My version of Simon Says features a base easy mode and a hard mode, which has more color options. Depending on your machine setup and version of Python installed, you can run it by pulling down the code and running simon.py.",
+		"buttonText": "View Source",
+		"link": "https://bit.ly/2GjbpoB"
+	},
+	"3": {
+		"org": "University of Montana Computer Science Deptartment",
+		"appType": "Web App",
+		"title": "Data Visualization Program",
+		"subhead": "data visualization research, front end, UI/UX",
+		"text": "Myself and a small team built the front end for professor Rob Smith in the Computer Science department at UM. The program was developed due to the lack of reliable mass spectrometry software that is on the market. The program accepted chemical data and graphed the isotopic signature of the sample within our program. We made sure the front and back ends were communicating properly, primarily using the D3 JavaScript library, jQuery, HTML, CSS and Bootstrap.",
+		"nonPublicIndicator": true
+	},
+	"4": {
+		"org": "Montana Kaimin",
+		"appType": "News Website Redesign",
+		"title": "Montana Kaimin Redesign",
+		"subhead": "front end, UI/UX",
+		"text": " I spent the summer of 2015 redesigning the University of Montana's student newspaper's website www.montanakaimin.com. I focused on presenting a clean and modern UI, intuitive navigation and more consistent and polished content formatting.",
+		"buttonText": "View Website",
+		"link": "https://www.montanakaimin.com"
+	}
+}
