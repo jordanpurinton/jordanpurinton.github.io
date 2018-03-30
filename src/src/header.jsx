@@ -65,7 +65,8 @@ class Header extends React.Component {
                             'I build websites and mobile apps.',
                             'I design user interfaces.',
                             'I like solving problems.',
-                            'I make software easier to use.'
+                            'I make software easier to use.',
+                            'I love symmetry.'
                         ].map(text => <Typist key={text} startDelay={200}>{text}</Typist>)}
                     </TypistLoop>
                 </NameLabelSubhead>

@@ -9,15 +9,15 @@ import Fade from 'react-reveal/Fade';
 class App extends React.Component {
     render() {
         return (
-            <section>
-                <Fade>
-                <Header/>
-                <About/>
-                <Portfolio/>
-                <Skills/>
-                <Footer/>
-                </Fade>
-            </section>
+            <Fade>
+                <section>
+                    <Header />
+                    <About />
+                    <Portfolio />
+                    <Skills />
+                    <Footer />
+                </section>
+            </Fade>
         );
     }
 }

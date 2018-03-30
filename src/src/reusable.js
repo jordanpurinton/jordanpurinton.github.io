@@ -4,7 +4,7 @@ export class Reusable {
 
     static WhiteContainer = styled.div`
     background-color: white;
-    color: #666;
+    color: rgba(0, 0, 0, 0.87);
     padding: 0 32px 32px 32px;
     height: inherit;
     text-align: left;`;
@@ -16,10 +16,10 @@ export class Reusable {
     static SectionHeader = styled.h2`
     font-weight: bold;
     margin-bottom: 32px;
-    color: #666;`;
+    color: rgba(0, 0, 0, 0.87);`;
 
     static ExternalLink = styled.a`
-    color: #666;
+    color: rgba(0, 0, 0, 0.87);
     text-decoration: underline;
     font-weight: bold;
     text-align: center;`;
@@ -27,12 +27,12 @@ export class Reusable {
     static ListItem = styled.h4`
     font-weight: bold;
     margin: 16px 0 16px 0;
-    color: #666;`;
+    color: rgba(0, 0, 0, 0.87);`;
 
     static ItemText = styled.p`
     line-height: 1.8;
     margin-bottom: 16px;
-    color: #666;`;
+    color: rgba(0, 0, 0, 0.87);`;
 
     static ButtonWrapper = styled.button`
     background-color: transparent;
@@ -62,7 +62,7 @@ export class Reusable {
 
     static IconStyles = {
         fontSize: 24,
-        color: '#666',
+        color: 'rgba(0, 0, 0, 0.87)',
         padding: 0,
     };
 }

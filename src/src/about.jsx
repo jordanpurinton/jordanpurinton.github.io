@@ -6,10 +6,6 @@ const ContainerDivider = Reusable.ContainerDivider;
 const SectionHeader = Reusable.SectionHeader;
 const ItemText = Reusable.ItemText;
 
-const linkStyle = {
-    color: '#3f51b5'
-};
-
 class About extends React.Component {
     render() {
         return (
@@ -25,7 +21,7 @@ class About extends React.Component {
                             When I'm not in the matrix, I enjoy working my part time job as a music snob, impulse buying Nintendo
                             Switch games and getting way too invested in sports.
                         </ItemText>
-                        <a href={require('./assets/JordanPurintonResume.pdf')} style={linkStyle} target="_blank" color="primary">View Resume</a>
+                        <a href={require('./assets/JordanPurintonResume.pdf')} target="_blank" color="primary">View Resume</a>
                     </Col>
                     <Col xs={4} sm={4} md={4} />
                 </Row>

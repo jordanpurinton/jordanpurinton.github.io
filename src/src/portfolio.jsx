@@ -61,7 +61,8 @@ class Portfolio extends React.Component {
                                         channels. I saw this project end to end, from building the UI and accessing the data, to
                                         constructing unit tests and GUI tests using the Mocha and Nightwatch frameworks. Used
                                         Node, Express, Handlebars, jQuery and a variety of APIs used to authenticate users and
-                                        grant data access."/>
+                                        grant data access."
+                                        nonPublicIndicator={true}/>
                         </Fade><br/><br/>
                         <Fade>
                                     <PortfolioCard
@@ -94,7 +95,8 @@ class Portfolio extends React.Component {
                                         spectrometry software that is on the market. The program accepted chemical data and
                                         graphed the isotopic signature of the sample within our program. We made sure the front
                                         and back ends were communicating properly, primarily using the D3 JavaScript library,
-                                        jQuery, HTML, CSS and Bootstrap."/>
+                                        jQuery, HTML, CSS and Bootstrap."
+                                        nonPublicIndicator={true}/>
                         </Fade><br/><br/>
                         <Fade>
                                     <PortfolioCard
