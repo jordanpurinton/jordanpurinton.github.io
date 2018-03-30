@@ -1,5 +1,4 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
 import Reusable from './reusable';
 import {Row, Col} from 'react-bootstrap';
 import PortfolioCard from './card';
@@ -27,8 +26,7 @@ class Portfolio extends React.Component {
                     <Col xs={4} sm={4} md={4}/>
                     <Col xs={4} sm={4} md={4}>
                         <SectionHeader>Portfolio</SectionHeader>
-                        <Fade>
-                            <PortfolioCard 
+                            <PortfolioCard
                                     avatarImg={osLogo}                               
                                     org="Orbital Shift, LLC"
                                     appType="Mobile Apps"
@@ -45,9 +43,8 @@ class Portfolio extends React.Component {
                                     buttonText2="View Punch Clock App"
                                     link="http://bit.ly/2FOsQwx"
                                     link2="http://bit.ly/2HJ2Ape"/>
-                        </Fade><br/><br/>
-                        <Fade>
-                                    <PortfolioCard
+                            <br/><br/>
+                            <PortfolioCard
                                         org="ESPN"
                                         appType="Web App"
                                         avatarImg={espnLogo}
@@ -63,9 +60,8 @@ class Portfolio extends React.Component {
                                         Node, Express, Handlebars, jQuery and a variety of APIs used to authenticate users and
                                         grant data access."
                                         nonPublicIndicator={true}/>
-                        </Fade><br/><br/>
-                        <Fade>
-                                    <PortfolioCard
+                            <br/><br/>
+                            <PortfolioCard
                                         avatarImg={me}
                                         org="Jordan Purinton"
                                         appType="Desktop App"
@@ -80,9 +76,8 @@ class Portfolio extends React.Component {
                                         installed, you can run it by pulling down the code and running simon.py."
                                         link="https://bit.ly/2GjbpoB"
                                         buttonText="View Source"/>
-                        </Fade><br/><br/>
-                        <Fade>
-                                    <PortfolioCard
+                            <br/><br/>
+                            <PortfolioCard
                                         avatarImg={umtLogo}
                                         org="University of Montana Computer Science Deptartment"
                                         appType="Web App"
@@ -97,9 +92,8 @@ class Portfolio extends React.Component {
                                         and back ends were communicating properly, primarily using the D3 JavaScript library,
                                         jQuery, HTML, CSS and Bootstrap."
                                         nonPublicIndicator={true}/>
-                        </Fade><br/><br/>
-                        <Fade>
-                                    <PortfolioCard
+                            <br/><br/>
+                            <PortfolioCard
                                         avatarImg={kaiminLogo}
                                         org="Montana Kaimin"
                                         appType="News Website Redesign"
@@ -112,7 +106,6 @@ class Portfolio extends React.Component {
                                         navigation and more consistent and polished content formatting."
                                         link="https://www.montanakaimin.com"
                                         buttonText="View Website"/>
-                        </Fade>
                     </Col>
                     <Col xs={4} sm={4} md={4}/>
                 </Row>

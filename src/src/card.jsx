@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Card, { CardActions, CardContent, CardMedia, CardHeader } from 'material-ui/Card';
+import Fade from 'react-reveal/Fade';
 import Avatar from 'material-ui/Avatar';
 import Typography from 'material-ui/Typography';
 import Tag from 'react-icons/lib/fa/tag';
@@ -35,7 +36,7 @@ const styles = {
 class PortfolioCard extends React.Component {
     render(props) {
         return (
-            <div>
+            <Fade>
                 <Card style={styles.card}>
                     <CardHeader title={this.props.org} subheader={this.props.appType} avatar={<Avatar src={this.props.avatarImg}></Avatar>}>
                     </CardHeader>
@@ -51,7 +52,7 @@ class PortfolioCard extends React.Component {
                         {this.props.buttonText2 ? <a href={this.props.link2} target="_blank" style={styles.button}>{this.props.buttonText2}</a> : null}
                     </CardActions>
                 </Card>
-            </div>
+            </Fade>
         );
     }
 }

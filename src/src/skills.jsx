@@ -1,6 +1,7 @@
 import React from 'react';
 import Reusable from './reusable';
 import {Row, Col} from 'react-bootstrap';
+import Fade from 'react-reveal/Fade';
 
 const WhiteContainer = Reusable.WhiteContainer;
 const ContainerDivider = Reusable.ContainerDivider;
@@ -13,6 +14,7 @@ class Skills extends React.Component {
         return (
             <WhiteContainer>
                 <ContainerDivider/>
+                <Fade>
                 <Row>
                     <Col xs={4} sm={4} md={4}/>
                     <Col xs={4} sm={4} md={4}>
@@ -47,6 +49,7 @@ class Skills extends React.Component {
                     </Col>
                     <Col xs={4} sm={4} md={4}/>
                 </Row>
+                </Fade>
             </WhiteContainer>
         );
     }
