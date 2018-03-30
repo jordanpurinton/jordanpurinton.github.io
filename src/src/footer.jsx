@@ -1,5 +1,6 @@
 import React from 'react';
 import Reusable from './reusable';
+import Button from 'material-ui/Button';
 import MdMail from 'react-icons/lib/md/mail';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaGithub from 'react-icons/lib/fa/github';
@@ -8,11 +9,7 @@ import Fade from 'react-reveal/Fade';
 
 const WhiteContainer = Reusable.WhiteContainer;
 const ContainerDivider = Reusable.ContainerDivider;
-const ButtonWrapperBottom = Reusable.ButtonWrapperBottom;
-const IconStyles = Reusable.IconStyles;
-const emailIcon = Reusable.EmailIcon;
-const linkedinIcon = Reusable.LinkedinIcon;
-const ghIcon = Reusable.GhIcon;
+const ButtonStyles = Reusable.ButtonStyles;
 const SectionHeader = Reusable.SectionHeader;
 const ItemText = Reusable.ItemText;
 
@@ -39,12 +36,15 @@ class Footer extends React.Component {
                             <SectionHeader>Contact</SectionHeader>
                             <ItemText><b>Email</b>: jordanomac@gmail.com | <b>Phone</b>: (406)-282-1020</ItemText>
                             <div>
-                                <ButtonWrapperBottom onClick={() => this.onContactButtonClick('email')}>
-                                    <MdMail style={{ ...IconStyles, ...emailIcon }} /></ButtonWrapperBottom>
-                                <ButtonWrapperBottom onClick={() => this.onContactButtonClick('linkedin')}>
-                                    <FaLinkedin style={{ ...IconStyles, ...linkedinIcon }} /></ButtonWrapperBottom>
-                                <ButtonWrapperBottom onClick={() => this.onContactButtonClick('git')}>
-                                    <FaGithub style={{ ...IconStyles, ...ghIcon }} /></ButtonWrapperBottom>
+                                <Button variant="fab" mini style={ButtonStyles.email} onClick={() => this.onContactButtonClick('email')}>
+                                    <MdMail />
+                                </Button>
+                                <Button variant="fab" mini style={ButtonStyles.linkedin} onClick={() => this.onContactButtonClick('linkedin')}>
+                                    <FaLinkedin />
+                                </Button>
+                                <Button variant="fab" mini style={ButtonStyles.github} onClick={() => this.onContactButtonClick('git')}>
+                                    <FaGithub />
+                                </Button>
                             </div>
                         </Col>
                         <Col xs={4} sm={4} md={4} />

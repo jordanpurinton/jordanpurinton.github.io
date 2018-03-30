@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export class Reusable {
 
     static WhiteContainer = styled.div`
-    background-color: white;
+    background-color: ##fdfdfd;
     color: rgba(0, 0, 0, 0.87);
     padding: 0 32px 32px 32px;
     height: inherit;
@@ -32,47 +32,25 @@ export class Reusable {
     static ItemText = styled.p`
     line-height: 1.8;
     margin-bottom: 16px;
+    margin-left: 2px;
     color: rgba(0, 0, 0, 0.87);`;
 
-    static ButtonWrapper = styled.button`
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    margin: 0 16px 0 16px;
-    &:focus {
-    outline:0;
-    };
-    &:hover {
-    background-color: darkgray;
-    cursor: pointer;
-    }`;
-
-    static ButtonWrapperBottom = styled.button`
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    margin: 0 32px 0 0;
-    &:focus {
-    outline:0;
-    };
-    &:hover {
-    background-color: darkgray;
-    cursor: pointer;
-    }`;
-
-    static IconStyles = {
-        fontSize: 20,
-        padding: 0,
-    };
-
-    static EmailIcon = {
-        color: '#ff4343'
-    }
-    static LinkedinIcon = {
-        color: '0077B5'
-    }
-    static GhIcon = {
-        color: 'black'
+    static ButtonStyles = {
+        email: {
+            backgroundColor: '#ff4343',
+            color: 'white',
+            margin: '0 12px 0 0'
+        },
+        linkedin: {
+            backgroundColor: '#0077B5',
+            color: 'white',
+            margin: '0 12px 0 12px'
+        },
+        github: {
+            backgroundColor: 'whitesmoke',
+            color: 'black',
+            margin: '0 12px 0 12px'
+        }
     }
 }
 
