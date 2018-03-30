@@ -62,9 +62,18 @@ export class Reusable {
 
     static IconStyles = {
         fontSize: 24,
-        color: 'rgba(0, 0, 0, 0.87)',
         padding: 0,
     };
+
+    static EmailIcon = {
+        color: 'red'
+    }
+    static LinkedinIcon = {
+        color: 'blue'
+    }
+    static GhIcon = {
+        color: 'black'
+    }
 }
 
 export default Reusable;
