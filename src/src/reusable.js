@@ -24,9 +24,9 @@ export class Reusable {
     font-weight: bold;
     text-align: center;`;
 
-    static ListItem = styled.h4`
+    static ListItem = styled.h5`
     font-weight: bold;
-    margin: 16px 0 16px 0;
+    margin: 16px 0 4px 0;
     color: rgba(0, 0, 0, 0.87);`;
 
     static ItemText = styled.p`
@@ -61,7 +61,7 @@ export class Reusable {
     }`;
 
     static IconStyles = {
-        fontSize: 24,
+        fontSize: 20,
         padding: 0,
     };
 
