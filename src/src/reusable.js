@@ -66,10 +66,10 @@ export class Reusable {
     };
 
     static EmailIcon = {
-        color: 'red'
+        color: '#ff4343'
     }
     static LinkedinIcon = {
-        color: 'blue'
+        color: '0077B5'
     }
     static GhIcon = {
         color: 'black'

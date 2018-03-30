@@ -13,6 +13,8 @@ import FaGithub from 'react-icons/lib/fa/github';
 const ButtonWrapper = Reusable.ButtonWrapper;
 const IconStyles = Reusable.IconStyles;
 const emailIcon = Reusable.EmailIcon;
+const linkedinIcon = Reusable.LinkedinIcon;
+const ghIcon = Reusable.GhIcon;
 const WhiteContainer = Reusable.WhiteContainer;
 
 const Logo = styled.img`
@@ -74,11 +76,11 @@ class Header extends React.Component {
                 <Fade>
                     <IconDiv>
                         <ButtonWrapper onClick={() => this.onContactButtonClick('email')}>
-                            <MdMail style={[IconStyles, emailIcon]} /></ButtonWrapper>
+                            <MdMail style={{...IconStyles, ...emailIcon}} /></ButtonWrapper>
                         <ButtonWrapper onClick={() => this.onContactButtonClick('linkedin')}>
-                            <FaLinkedin style={IconStyles} /></ButtonWrapper>
+                            <FaLinkedin style={{ ...IconStyles, ...linkedinIcon}} /></ButtonWrapper>
                         <ButtonWrapper onClick={() => this.onContactButtonClick('git')}>
-                            <FaGithub style={IconStyles} /></ButtonWrapper>
+                            <FaGithub style={{ ...IconStyles, ...ghIcon}} /></ButtonWrapper>
                     </IconDiv>
                 </Fade>
             </WhiteContainer>
