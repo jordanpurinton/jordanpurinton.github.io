@@ -38,7 +38,7 @@ class PortfolioCard extends React.Component {
         return (
             <Fade>
                 <Card style={styles.card}>
-                    <CardHeader title={this.props.data.title} subheader={this.props.data.appType} avatar={<Avatar src={this.props.avatarImg}></Avatar>}>
+                    <CardHeader title={this.props.data.org} subheader={this.props.data.appType} avatar={<Avatar src={this.props.avatarImg}></Avatar>}>
                     </CardHeader> 
                     <CardMedia style={styles.media} image={this.props.img} />
                     <CardContent>
