@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.d7c64e53.css",
   "main.css.map": "static/css/main.d7c64e53.css.map",
-  "main.js": "static/js/main.3e375245.js",
-  "main.js.map": "static/js/main.3e375245.js.map",
+  "main.js": "static/js/main.b3625f84.js",
+  "main.js.map": "static/js/main.b3625f84.js.map",
   "static/media/JordanPurintonResume.pdf": "static/media/JordanPurintonResume.a2659c6b.pdf",
   "static/media/dataviz.png": "static/media/dataviz.c1572f26.png",
   "static/media/espn-logo.jpg": "static/media/espn-logo.5155db70.jpg",
@@ -12,6 +12,7 @@
   "static/media/kaimin.png": "static/media/kaimin.fa1b309c.png",
   "static/media/os-logo.jpg": "static/media/os-logo.d9b67e95.jpg",
   "static/media/os.png": "static/media/os.3a87ae22.png",
+  "static/media/sayathing.png": "static/media/sayathing.07fad1c2.png",
   "static/media/simon.png": "static/media/simon.50f7fdbc.png",
   "static/media/umt-logo.jpg": "static/media/umt-logo.234f46f7.jpg"
 }
