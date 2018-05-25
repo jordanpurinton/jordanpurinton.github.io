@@ -1,6 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import {Card, CardActions, CardContent, CardMedia, CardHeader, Typography, Avatar} from '@material-ui/core';
+import {Avatar, Button, Card, CardContent, CardHeader, CardMedia, Typography} from '@material-ui/core';
 import Fade from 'react-reveal/Fade';
 import Tag from 'react-icons/lib/fa/tag';
 
@@ -15,13 +14,12 @@ const styles = {
         color: 'rgba(0, 0, 0, 0.54)'
     },
     nonpublic: {
-        paddingTop: '24px',
-        color: 'rgba(0, 0, 0, 0.54)'
+        padding: '37px 0 0 4px'
     },
     button: {
-        marginLeft: '15px',
-        marginRight: '16px',
-        marginBottom: '16px'
+        margin: '13px',
+        color: '#007bff',
+        fontSize: '15px'
     },
     card: {
         maxWidth: '100%',
@@ -36,27 +34,31 @@ class PortfolioCard extends React.Component {
         return (
             <Fade>
                 <Card style={styles.card}>
-                    <CardHeader title={this.props.data.org} subheader={this.props.data.appType} avatar={<Avatar src={this.props.avatarImg}></Avatar>}>
-                    </CardHeader> 
-                    <CardMedia style={styles.media} image={this.props.img} />
+                    <CardHeader title={this.props.data.org} subheader={this.props.data.appType}
+                                avatar={<Avatar src={this.props.avatarImg}/>}>
+                    </CardHeader>
+                    <CardMedia style={styles.media} image={this.props.img}/>
                     <CardContent>
                         <Typography gutterBottom variant="headline"><b>{this.props.data.title}</b></Typography>
                         <Typography style={styles.text}>{this.props.data.text}</Typography>
-                        <Typography style={styles.subhead}><Tag />    {this.props.data.subhead}</Typography>
-                        {this.props.data.nonPublicIndicator ? <Typography style={styles.nonpublic}>* Not a public facing app</Typography> : null}
+                        <Typography style={styles.subhead}><Tag/> {this.props.data.subhead}</Typography>
+                        {this.props.data.nonPublicIndicator ?
+                            <Typography style={styles.nonpublic}>* Not a public facing app</Typography> : null}
                     </CardContent>
-                    <CardActions>
-                        {this.props.data.buttonText ? <a href={this.props.data.link} target="_blank" style={styles.button}>{this.props.data.buttonText}</a> : null}
-                        {this.props.data.buttonText2 ? <a href={this.props.data.link2} target="_blank" style={styles.button}>{this.props.data.buttonText2}</a> : null}
-                    </CardActions>
+                    {this.props.data.buttonText ?
+                        <Button href={this.props.data.link} target="_blank">
+                            <span style={styles.button}>{this.props.data.buttonText}</span>
+                        </Button>
+                        : null}
+                    {this.props.data.buttonText2 ?
+                        <Button href={this.props.data.link2} target="_blank">
+                            <span style={styles.button}>{this.props.data.buttonText2}</span>
+                        </Button>
+                        : null}
                 </Card>
             </Fade>
         );
     }
 }
-
-PortfolioCard.propTypes = {
-    classes: PropTypes.object.isRequired,
-};
 
 export default PortfolioCard;

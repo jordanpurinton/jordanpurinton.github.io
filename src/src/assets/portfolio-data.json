@@ -3,7 +3,7 @@
 		"org": "Jordan Purinton",
 		"appType": "Web App",
 		"title": "Say A Thing",
-		"subhead": "side project, front end, back end/API, UI/UX",
+		"subhead": "side project, front end, back end, UI/UX",
 		"text": "Built a web app that allows random users to post a short message alongside their name. Once the message is successfully submitted, the user will be shown another message from a random user who has posted in the app. App built utilizing React, Styled Components, Material UI and Firebase for data storage.",
 		"buttonText": "View App",
 		"buttonText2": "View Source",
