@@ -1,6 +1,6 @@
 import React from 'react';
 import Reusable from './reusable';
-import Button from 'material-ui/Button';
+import {Button} from '@material-ui/core';
 import MdMail from 'react-icons/lib/md/mail';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaGithub from 'react-icons/lib/fa/github';

@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Card, { CardActions, CardContent, CardMedia, CardHeader } from 'material-ui/Card';
+import {Card, CardActions, CardContent, CardMedia, CardHeader, Typography, Avatar} from '@material-ui/core';
 import Fade from 'react-reveal/Fade';
-import Avatar from 'material-ui/Avatar';
-import Typography from 'material-ui/Typography';
 import Tag from 'react-icons/lib/fa/tag';
 
 const styles = {
