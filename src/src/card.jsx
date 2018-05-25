@@ -34,7 +34,7 @@ const styles = {
 };
 
 class PortfolioCard extends React.Component {
-    render(props) {
+    render() {
         return (
             <Fade>
                 <Card style={styles.card}>

@@ -1,5 +1,16 @@
 {
 	"0": {
+		"org": "Jordan Purinton",
+		"appType": "Web App",
+		"title": "Say A Thing",
+		"subhead": "side project, front end, back end/API, UI/UX",
+		"text": "Built a web app that allows random users to post a short message alongside their name. Once the message is successfully submitted, the user will be shown another message from a random user who has posted in the app. App built utilizing React, Styled Components, Material UI and Firebase for data storage.",
+		"buttonText": "View App",
+		"buttonText2": "View Source",
+		"link": "https://bit.ly/2scJMrl",
+		"link2": "https://bit.ly/2scbDIh"
+	},
+	"1": {
 		"org": "Orbital Shift, LLC",
 		"appType": "Mobile Apps",
 		"title": "Orbital Shift Apps",
@@ -10,7 +21,7 @@
 		"link": "http://bit.ly/2FOsQwx",
 		"link2": "http://bit.ly/2HJ2Ape"
 	},
-	"1": {
+	"2": {
 		"org": "ESPN",
 		"appType": "Web App",
 		"title": "ESPN Config Tool",
@@ -18,7 +29,7 @@
 		"text": "Built configuration tool for ESPN's BottomLine service (aka the ticker you see at the bottom of your screen with sports news and scores). Allows users to remotely restart the software on a variety of playout machines that ESPN uses to broadcast its various channels. I saw this project end to end, from building the UI and accessing the data, to constructing unit tests and GUI tests using the Mocha and Nightwatch frameworks. Used Node, Express, Handlebars, jQuery and a variety of APIs used to authenticate users and grant data access.",
 		"nonPublicIndicator": true 
 	},
-	"2": {
+	"3": {
 		"org": "Jordan Purinton",
 		"appType": "Desktop App",
 		"title": "Simon Says Game",
@@ -27,7 +38,7 @@
 		"buttonText": "View Source",
 		"link": "https://bit.ly/2GjbpoB"
 	},
-	"3": {
+	"4": {
 		"org": "University of Montana Computer Science Deptartment",
 		"appType": "Web App",
 		"title": "Data Visualization Program",
@@ -35,7 +46,7 @@
 		"text": "Myself and a small team built the front end for professor Rob Smith in the Computer Science department at UM. The program was developed due to the lack of reliable mass spectrometry software that is on the market. The program accepted chemical data and graphed the isotopic signature of the sample within our program. We made sure the front and back ends were communicating properly, primarily using the D3 JavaScript library, jQuery, HTML, CSS and Bootstrap.",
 		"nonPublicIndicator": true
 	},
-	"4": {
+	"5": {
 		"org": "Montana Kaimin",
 		"appType": "News Website Redesign",
 		"title": "Montana Kaimin Redesign",
