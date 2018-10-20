@@ -11,3 +11,8 @@
         opacity: 0; }
     100% {
         opacity: 1; } }
+
+svg {
+    height: 22px;
+    width: 22px;
+}
