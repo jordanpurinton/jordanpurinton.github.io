@@ -42,8 +42,8 @@ class Skills extends React.Component {
                         <div>
                             <ListItem>Misc.</ListItem>
                             <ItemText>
-                                Android Studio, Xcode, MS SQL Server, JIRA, Postman, TeamCity, JetBrains IDEs, Eclipse,
-                                Maven, Version control w/ Git, Adobe Creative Suite
+                                Android Studio, Xcode, MS SQL Server, JIRA, Postman, JetBrains IDEs, Eclipse,
+                                Version control w/ Git, Adobe Creative Suite
                             </ItemText>
                         </div>
                     </Col>
