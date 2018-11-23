@@ -5,6 +5,8 @@ import PortfolioCard from './card';
 
 const osLogo = require ('./assets/os-logo.jpg')
 const espnLogo = require ('./assets/espn-logo.jpg')
+const gatherboardLogo = require ('./assets/gatherboard.png');
+const gatherboardPic = require ('./assets/gatherboard-app.png');
 const me = require ('./assets/jordan-purinton-pic.png');
 const umtLogo = require('./assets/umt-logo.jpg');
 const kaiminLogo = require('./assets/kaimin-logo.jpg');
@@ -28,12 +30,13 @@ class Portfolio extends React.Component {
                     <Col xs={4} sm={4} md={4}/>
                     <Col xs={4} sm={4} md={4}>
                         <SectionHeader>Portfolio</SectionHeader>
-                            <PortfolioCard avatarImg={me} img={satLogo} data={data["0"]}/><br/><br/>
-                            <PortfolioCard avatarImg={osLogo} img={osPic} data={data["1"]}/><br/><br/>
-                            <PortfolioCard avatarImg={espnLogo} img={espnPic} data={data["2"]}/><br/><br/>
-                            <PortfolioCard avatarImg={me} img={simonPic} data={data["3"]}/><br/><br/>
-                            <PortfolioCard avatarImg={umtLogo} img={dataVizPic} data={data["4"]}/><br/><br/>
-                            <PortfolioCard avatarImg={kaiminLogo} img={kaiminPic} data={data["5"]}/>
+                            <PortfolioCard avatarImg={gatherboardLogo} img={gatherboardPic} data={data["0"]}/><br/><br/>
+                            <PortfolioCard avatarImg={me} img={satLogo} data={data["1"]}/><br/><br/>
+                            <PortfolioCard avatarImg={osLogo} img={osPic} data={data["2"]}/><br/><br/>
+                            <PortfolioCard avatarImg={espnLogo} img={espnPic} data={data["3"]}/><br/><br/>
+                            <PortfolioCard avatarImg={me} img={simonPic} data={data["4"]}/><br/><br/>
+                            <PortfolioCard avatarImg={umtLogo} img={dataVizPic} data={data["5"]}/><br/><br/>
+                            <PortfolioCard avatarImg={kaiminLogo} img={kaiminPic} data={data["6"]}/>
                     </Col>
                     <Col xs={4} sm={4} md={4}/>
                 </Row>
