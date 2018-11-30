@@ -31,12 +31,11 @@ class Portfolio extends React.Component {
                     <Col xs={4} sm={4} md={4}>
                         <SectionHeader>Portfolio</SectionHeader>
                             <PortfolioCard avatarImg={gatherboardLogo} img={gatherboardPic} data={data["0"]}/><br/><br/>
-                            <PortfolioCard avatarImg={me} img={satLogo} data={data["1"]}/><br/><br/>
-                            <PortfolioCard avatarImg={osLogo} img={osPic} data={data["2"]}/><br/><br/>
-                            <PortfolioCard avatarImg={espnLogo} img={espnPic} data={data["3"]}/><br/><br/>
-                            <PortfolioCard avatarImg={me} img={simonPic} data={data["4"]}/><br/><br/>
-                            <PortfolioCard avatarImg={umtLogo} img={dataVizPic} data={data["5"]}/><br/><br/>
-                            <PortfolioCard avatarImg={kaiminLogo} img={kaiminPic} data={data["6"]}/>
+                            <PortfolioCard avatarImg={osLogo} img={osPic} data={data["1"]}/><br/><br/>
+                            <PortfolioCard avatarImg={espnLogo} img={espnPic} data={data["2"]}/><br/><br/>
+                            <PortfolioCard avatarImg={me} img={simonPic} data={data["3"]}/><br/><br/>
+                            <PortfolioCard avatarImg={umtLogo} img={dataVizPic} data={data["4"]}/><br/><br/>
+                            <PortfolioCard avatarImg={kaiminLogo} img={kaiminPic} data={data["5"]}/>
                     </Col>
                     <Col xs={4} sm={4} md={4}/>
                 </Row>
