@@ -1,9 +1,9 @@
 {
   "main.css": "./static/css/main.0708e398.chunk.css",
-  "main.js": "./static/js/main.9eb36c8c.chunk.js",
-  "main.js.map": "./static/js/main.9eb36c8c.chunk.js.map",
-  "static/js/1.4edf1285.chunk.js": "./static/js/1.4edf1285.chunk.js",
-  "static/js/1.4edf1285.chunk.js.map": "./static/js/1.4edf1285.chunk.js.map",
+  "main.js": "./static/js/main.61371847.chunk.js",
+  "main.js.map": "./static/js/main.61371847.chunk.js.map",
+  "static/js/1.97b2992e.chunk.js": "./static/js/1.97b2992e.chunk.js",
+  "static/js/1.97b2992e.chunk.js.map": "./static/js/1.97b2992e.chunk.js.map",
   "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
   "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
   "static/media/kaimin.png": "./static/media/kaimin.fa1b309c.png",
@@ -13,7 +13,6 @@
   "static/media/gatherboard-app.png": "./static/media/gatherboard-app.0f68f0d0.png",
   "static/media/umt-logo.jpg": "./static/media/umt-logo.234f46f7.jpg",
   "static/media/kaimin-logo.jpg": "./static/media/kaimin-logo.5b6478f9.jpg",
-  "static/media/sayathing.png": "./static/media/sayathing.07fad1c2.png",
   "static/media/os.png": "./static/media/os.3a87ae22.png",
   "static/media/espn.png": "./static/media/espn.7bf3899f.png",
   "static/media/simon.png": "./static/media/simon.50f7fdbc.png",
@@ -21,6 +20,6 @@
   "static/media/JordanPurintonResume.pdf": "./static/media/JordanPurintonResume.7fe61c28.pdf",
   "static/css/main.0708e398.chunk.css.map": "./static/css/main.0708e398.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.c59b6153a50b0b21ea531f1fb933f6de.js": "./precache-manifest.c59b6153a50b0b21ea531f1fb933f6de.js",
+  "precache-manifest.b94a75e3b39f7f27ec3304287e9487ea.js": "./precache-manifest.b94a75e3b39f7f27ec3304287e9487ea.js",
   "service-worker.js": "./service-worker.js"
 }

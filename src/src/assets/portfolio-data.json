@@ -30,6 +30,25 @@
 		"nonPublicIndicator": true 
 	},
 	"3": {
+		"org": "University of Montana Computer Science Deptartment",
+		"appType": "Web App",
+		"title": "Data Visualization Program",
+		"subhead": "data visualization research, front end, UI/UX",
+		"text": "Myself and a small team built the front end for professor Rob Smith in the Computer Science department at UM. The program was developed due to the lack of reliable mass spectrometry software that is on the market. The program accepted chemical data and graphed the isotopic signature of the sample within our program. We made sure the front and back ends were communicating properly, primarily using the D3 JavaScript library, jQuery, HTML, CSS and Bootstrap.",
+		"nonPublicIndicator": true
+	},
+	"4": {
+		"org": "Jordan Purinton",
+		"appType": "Web App",
+		"title": "Say A Thing",
+		"subhead": "side project, front end, back end, UI/UX",
+		"text": "Built a web app that allows random users to post a short message alongside their name. Once the message is successfully submitted, the user will be shown another message from a random user who has posted in the app. App built utilizing React, Styled Components, Material UI and Firebase for data storage.",
+		"buttonText": "View App",
+		"buttonText2": "View Source",
+		"link": "http://say-a-thing.herokuapp.com/",
+		"link2": "https://bit.ly/2scbDIh"
+	},
+	"5": {
 		"org": "Jordan Purinton",
 		"appType": "Desktop App",
 		"title": "Simon Says Game",
@@ -38,15 +57,7 @@
 		"buttonText": "View Source",
 		"link": "https://bit.ly/2GjbpoB"
 	},
-	"4": {
-		"org": "University of Montana Computer Science Deptartment",
-		"appType": "Web App",
-		"title": "Data Visualization Program",
-		"subhead": "data visualization research, front end, UI/UX",
-		"text": "Myself and a small team built the front end for professor Rob Smith in the Computer Science department at UM. The program was developed due to the lack of reliable mass spectrometry software that is on the market. The program accepted chemical data and graphed the isotopic signature of the sample within our program. We made sure the front and back ends were communicating properly, primarily using the D3 JavaScript library, jQuery, HTML, CSS and Bootstrap.",
-		"nonPublicIndicator": true
-	},
-	"5": {
+	"6": {
 		"org": "Montana Kaimin",
 		"appType": "News Website Redesign",
 		"title": "Montana Kaimin Redesign",
