@@ -33,8 +33,7 @@ class About extends React.Component {
                             things I've built and worked on. I primarily
                             work as a software engineer, focusing on web development and hybrid mobile app development.
                             When I'm not in the matrix, I enjoy working my part time job as a music snob, impulse buying
-                            Nintendo
-                            Switch games and getting way too invested in sports.
+                            Nintendo Switch games and getting way too invested in sports.
                         </ItemText>
                         <Button style={styles.button} href={require('./assets/JordanPurintonResume.pdf')} target="_blank">
                             <span style={styles.span}>View Resume</span>

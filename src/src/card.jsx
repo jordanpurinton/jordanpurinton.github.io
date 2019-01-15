@@ -1,5 +1,5 @@
 import React from 'react';
-import {Avatar, Button, Card, CardContent, CardHeader, CardMedia, Typography} from '@material-ui/core';
+import { Avatar, Button, Card, CardContent, CardHeader, CardMedia, Typography } from '@material-ui/core';
 import Fade from 'react-reveal/Fade';
 import Tag from 'react-icons/lib/fa/tag';
 
@@ -31,22 +31,23 @@ const styles = {
 
 class PortfolioCard extends React.Component {
     render() {
-        const { org, appType, title, text, subhead, nonPublicIndicator, buttonText, link, buttonText2, link2 } = this.props.data;
+        const { props } = this;
+        const { org, appType, title, text, subhead, nonPublicIndicator, buttonText, link, buttonText2, link2 } = props.data;
         return (
             <Fade>
                 <Card style={styles.card}>
-                    
+
                     {/* header */}
-                    <CardHeader title={org} subheader={appType} avatar={<Avatar src={this.props.avatarImg}/>}></CardHeader>
-                    
+                    <CardHeader title={org} subheader={appType} avatar={<Avatar src={props.avatarImg} />}></CardHeader>
+
                     {/* img */}
-                    <CardMedia style={styles.media} image={this.props.img}/>
-                    
+                    <CardMedia style={styles.media} image={props.img} />
+
                     {/* body */}
                     <CardContent>
                         <Typography gutterBottom variant="headline"><b>{title}</b></Typography>
                         <Typography style={styles.text}>{text}</Typography>
-                        <Typography style={styles.subhead}><Tag/> {subhead}</Typography>
+                        <Typography style={styles.subhead}><Tag /> {subhead}</Typography>
                         {nonPublicIndicator ? <Typography style={styles.nonpublic}>* Not a public facing app</Typography> : null}
                     </CardContent>
 

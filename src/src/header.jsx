@@ -59,7 +59,7 @@ class Header extends React.Component {
                 <NameLabelSubhead>
                     <TypistLoop interval={2500}>
                         {[
-                            'I build websites and mobile apps.',
+                            'I build things.',
                             'I design user interfaces.',
                             'I like solving problems.',
                             'I make software easier to use.',
