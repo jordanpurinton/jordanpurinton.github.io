@@ -32,13 +32,13 @@ const styles = {
 class PortfolioCard extends React.Component {
     render() {
         const { props } = this;
-        const { org, appType, title, text, subhead, nonPublicIndicator, buttonText, link, buttonText2, link2 } = props.data;
+        const { org, orgLink, appType, title, text, subhead, nonPublicIndicator, buttonText, link, buttonText2, link2 } = props.data;
         return (
             <Fade>
                 <Card style={styles.card}>
 
                     {/* header */}
-                    <CardHeader title={org} subheader={appType} avatar={<Avatar src={props.avatarImg} />}></CardHeader>
+                    <CardHeader title={orgLink ? <a href={orgLink} target="_blank">{org}</a> : org} subheader={appType} avatar={<Avatar src={props.avatarImg} />}></CardHeader>
 
                     {/* img */}
                     <CardMedia style={styles.media} image={props.img} />

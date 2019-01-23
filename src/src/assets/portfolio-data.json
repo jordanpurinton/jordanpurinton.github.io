@@ -1,6 +1,7 @@
 {
 	"0": {
-		"org": "GeoFli",
+    "org": "GeoFli",
+    "orgLink": "https://geofli.com",
 		"appType": "Plugin",
 		"title": "GeoFli WordPress Plugin",
 		"subhead": "back end, content management/modification tool, front end",
