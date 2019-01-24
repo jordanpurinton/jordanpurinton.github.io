@@ -1,7 +1,7 @@
 {
-  "main.css": "./static/css/main.80b92401.chunk.css",
-  "main.js": "./static/js/main.e7fe7fec.chunk.js",
-  "main.js.map": "./static/js/main.e7fe7fec.chunk.js.map",
+  "main.css": "./static/css/main.0708e398.chunk.css",
+  "main.js": "./static/js/main.8058451e.chunk.js",
+  "main.js.map": "./static/js/main.8058451e.chunk.js.map",
   "static/js/1.d52e6c4e.chunk.js": "./static/js/1.d52e6c4e.chunk.js",
   "static/js/1.d52e6c4e.chunk.js.map": "./static/js/1.d52e6c4e.chunk.js.map",
   "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
@@ -20,8 +20,8 @@
   "static/media/simon.png": "./static/media/simon.50f7fdbc.png",
   "static/media/JordanPurintonResume.pdf": "./static/media/JordanPurintonResume.7fe61c28.pdf",
   "static/media/kaimin.png": "./static/media/kaimin.fa1b309c.png",
-  "static/css/main.80b92401.chunk.css.map": "./static/css/main.80b92401.chunk.css.map",
+  "static/css/main.0708e398.chunk.css.map": "./static/css/main.0708e398.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.221f786432b6adb53b30a15aaa15cbc5.js": "./precache-manifest.221f786432b6adb53b30a15aaa15cbc5.js",
+  "precache-manifest.aee64f2e5d05bfc6f4edd627f2559120.js": "./precache-manifest.aee64f2e5d05bfc6f4edd627f2559120.js",
   "service-worker.js": "./service-worker.js"
 }
