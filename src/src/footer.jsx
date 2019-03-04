@@ -16,7 +16,7 @@ class Footer extends React.Component {
 
     onContactButtonClick(link) {
         if (link === 'email') {
-            window.open('mailto:jordanomac@gmail.com?Subject=Response%20From%20Portfolio%20Site');
+            window.open('mailto:me@jordanpurinton.com?Subject=Response%20From%20Portfolio%20Site');
         } else if (link === 'linkedin') {
             window.open('https://www.linkedin.com/in/jordanpurinton');
         } else if (link === 'git') {
