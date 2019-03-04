@@ -1,7 +1,6 @@
 import React from 'react';
 import { Avatar, Button, Card, CardContent, CardHeader, CardMedia, Typography } from '@material-ui/core';
 import Fade from 'react-reveal/Fade';
-import Tag from 'react-icons/lib/fa/tag';
 
 const styles = {
     text: {
@@ -47,7 +46,7 @@ class PortfolioCard extends React.Component {
                     <CardContent>
                         <Typography gutterBottom variant="headline"><b>{title}</b></Typography>
                         <Typography style={styles.text}>{text}</Typography>
-                        <Typography style={styles.subhead}><Tag /> {subhead}</Typography>
+                        <Typography style={styles.subhead}>{subhead}</Typography>
                         {nonPublicIndicator ? <Typography style={styles.nonpublic}>* Not a public facing app</Typography> : null}
                     </CardContent>
 

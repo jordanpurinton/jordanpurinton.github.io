@@ -1,9 +1,9 @@
 import React from 'react';
 import Reusable from './reusable';
 import { Button } from '@material-ui/core';
-import MdMail from 'react-icons/lib/md/mail';
-import FaLinkedin from 'react-icons/lib/fa/linkedin';
-import FaGithub from 'react-icons/lib/fa/github';
+import { MdMail } from 'react-icons/md/index';
+import { FaLinkedin } from 'react-icons/fa/index';
+import { FaGithub } from 'react-icons/fa/index';
 import { Row, Col } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
