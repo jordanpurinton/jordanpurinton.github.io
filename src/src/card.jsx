@@ -38,7 +38,7 @@ class PortfolioCard extends React.Component {
                 <Card style={styles.card}>
 
                     {/* header */}
-                    <CardHeader title={orgLink ? <a href={orgLink} target="_blank">{org}</a> : org} subheader={appType} avatar={<Avatar src={props.avatarImg} />}></CardHeader>
+                    <CardHeader title={orgLink ? <a href={orgLink} target="_blank" rel="noopener noreferrer">{org}</a> : org} subheader={appType} avatar={<Avatar src={props.avatarImg} />}></CardHeader>
 
                     {/* img */}
                     <CardMedia style={styles.media} image={props.img} />
@@ -52,10 +52,10 @@ class PortfolioCard extends React.Component {
                     </CardContent>
 
                     {/* buttons/links */}
-                    {buttonText ? <Button href={link} target="_blank"><span style={styles.button}>{buttonText}</span></Button> : null}
+                    {buttonText ? <Button href={link} target="_blank" rel="noopener noreferrer"><span style={styles.button}>{buttonText}</span></Button> : null}
 
                     {/* buttons/links */}
-                    {buttonText2 ? <Button href={link2} target="_blank"><span style={styles.button}>{buttonText2}</span></Button> : null}
+                    {buttonText2 ? <Button href={link2} target="_blank" rel="noopener noreferrer"><span style={styles.button}>{buttonText2}</span></Button> : null}
                 </Card>
             </Fade>
         );

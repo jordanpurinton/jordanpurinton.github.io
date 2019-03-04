@@ -39,17 +39,20 @@ export class Reusable {
         email: {
             backgroundColor: '#ff4343',
             color: 'white',
-            margin: '0 12px 0 0'
+            margin: '0 12px 0 0',
+            outline: 'none'
         },
         linkedin: {
             backgroundColor: '#0077B5',
             color: 'white',
-            margin: '0 12px 0 12px'
+            margin: '0 12px 0 12px',
+            outline: 'none'
         },
         github: {
             backgroundColor: 'whitesmoke',
             color: 'black',
-            margin: '0 12px 0 12px'
+            margin: '0 12px 0 12px',
+            outline: 'none'
         }
     }
 }
