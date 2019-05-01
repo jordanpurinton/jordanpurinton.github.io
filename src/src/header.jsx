@@ -60,7 +60,6 @@ class Header extends React.Component {
                     <TypistLoop interval={2500}>
                         {[
                             'I build things.',
-                            'I design user interfaces.',
                             'I like solving problems.',
                             'I make software easier to use.',
                             'I love symmetry.'
