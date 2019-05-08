@@ -12,7 +12,6 @@ const gatherboardPic = require ('./assets/gatherboard-app.png');
 const me = require ('./assets/jordan-purinton-pic.png');
 const umtLogo = require('./assets/umt-logo.jpg');
 const kaiminLogo = require('./assets/kaimin-logo.jpg');
-const satLogo = require('./assets/sayathing.png');
 const osPic = require('./assets/os.png');
 const espnPic = require('./assets/espn.png');
 const simonPic = require('./assets/simon.png');
@@ -37,9 +36,8 @@ class Portfolio extends React.Component {
                             <PortfolioCard avatarImg={osLogo} img={osPic} data={data["2"]}/><br/><br/>
                             <PortfolioCard avatarImg={espnLogo} img={espnPic} data={data["3"]}/><br/><br/>
                             <PortfolioCard avatarImg={umtLogo} img={dataVizPic} data={data["4"]}/><br/><br/>
-                            <PortfolioCard avatarImg={me} img={satLogo} data={data["5"]}/><br/><br/>
-                            <PortfolioCard avatarImg={me} img={simonPic} data={data["6"]}/><br/><br/>
-                            <PortfolioCard avatarImg={kaiminLogo} img={kaiminPic} data={data["7"]}/>
+                            <PortfolioCard avatarImg={me} img={simonPic} data={data["5"]}/><br/><br/>
+                            <PortfolioCard avatarImg={kaiminLogo} img={kaiminPic} data={data["6"]}/>
                     </Col>
                     <Col xs={4} sm={4} md={4}/>
                 </Row>

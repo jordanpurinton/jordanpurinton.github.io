@@ -55,17 +55,6 @@
 	},
 	"5": {
 		"org": "Jordan Purinton",
-		"appType": "Web App",
-		"title": "Say A Thing",
-		"subhead": "side project, front end, back end, UI/UX",
-		"text": "Built a web app that allows random users to post a short message alongside their name. Once the message is successfully submitted, the user will be shown another message from a random user who has posted in the app. App built utilizing React, Styled Components, Material UI and Firebase for data storage.",
-		"buttonText": "View App",
-		"buttonText2": "View Source",
-		"link": "http://say-a-thing.herokuapp.com/",
-		"link2": "https://bit.ly/2scbDIh"
-	},
-	"6": {
-		"org": "Jordan Purinton",
 		"appType": "Desktop App",
 		"title": "Simon Says Game",
 		"subhead": "side project, front end",
@@ -73,7 +62,7 @@
 		"buttonText": "View Source",
 		"link": "https://bit.ly/2GjbpoB"
 	},
-	"7": {
+	"6": {
 		"org": "Montana Kaimin",
 		"orgLink": "https://montanakaimin.com",
 		"appType": "News Website Redesign",
