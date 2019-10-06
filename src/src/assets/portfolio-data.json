@@ -54,15 +54,6 @@
 		"nonPublicIndicator": true
 	},
 	"5": {
-		"org": "Jordan Purinton",
-		"appType": "Desktop App",
-		"title": "Simon Says Game",
-		"subhead": "side project, front end",
-		"text": " Built a small version of the classic Simon Says game using turtle graphics and tkSimpleDialog. The game prompts the user with several different colors, and the more colors that the user guesses, the longer the game keeps going. My version of Simon Says features a base easy mode and a hard mode, which has more color options. Depending on your machine setup and version of Python installed, you can run it by pulling down the code and running simon.py.",
-		"buttonText": "View Source",
-		"link": "https://bit.ly/2GjbpoB"
-	},
-	"6": {
 		"org": "Montana Kaimin",
 		"orgLink": "https://montanakaimin.com",
 		"appType": "News Website Redesign",
