@@ -6,7 +6,7 @@ import Typist from 'react-typist';
 import TypistLoop from 'react-typist-loop'
 import styled from 'styled-components';
 import Reusable from './reusable';
-import { Button } from '@material-ui/core';
+import { Fab } from '@material-ui/core';
 import { MdMail } from 'react-icons/md/index';
 import { FaLinkedin } from 'react-icons/fa/index';
 import { FaGithub } from 'react-icons/fa/index';
@@ -68,15 +68,15 @@ class Header extends React.Component {
                 </NameLabelSubhead>
                 <Fade>
                     <div><br />
-                        <Button variant="fab" mini style={ButtonStyles.email} onClick={() => this.onContactButtonClick('email')}>
+                        <Fab mini style={ButtonStyles.email} onClick={() => this.onContactButtonClick('email')}>
                             <MdMail />
-                        </Button>
-                        <Button variant="fab" mini style={ButtonStyles.linkedin} onClick={() => this.onContactButtonClick('linkedin')}>
+                        </Fab>
+                        <Fab mini style={ButtonStyles.linkedin} onClick={() => this.onContactButtonClick('linkedin')}>
                             <FaLinkedin />
-                        </Button>
-                        <Button variant="fab" mini style={ButtonStyles.github} onClick={() => this.onContactButtonClick('git')}>
+                        </Fab>
+                        <Fab mini style={ButtonStyles.github} onClick={() => this.onContactButtonClick('git')}>
                             <FaGithub />
-                        </Button>
+                        </Fab>
                     </div>
                 </Fade>
             </WhiteContainer>

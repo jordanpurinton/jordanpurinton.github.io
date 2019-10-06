@@ -31,7 +31,7 @@ const styles = {
 class PortfolioCard extends React.Component {
     render() {
         const { props } = this;
-        const { org, orgLink, appType, title, text, subhead, nonPublicIndicator, buttonText, link, buttonText2, link2 } = props.data;
+        const { org, orgLink, appType, title, text, subhead, nonPublicIndicator, buttonText, link, buttonText2, link2 } = this.props.data;
         return (
             <Fade>
                 <Card style={styles.card}>
