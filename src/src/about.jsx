@@ -31,7 +31,7 @@ class About extends React.Component {
                         <ItemText>
                             Thanks for stopping by my website! My name is Jordan Purinton, and below are a few of the
                             things I've built and worked on. I primarily
-                            work as a software engineer, focusing on web development and hybrid mobile app development.
+                            work as a software engineer, focusing on cloud computing, web development and hybrid mobile app development.
                             Check out some of my projects and feel free to
                             <a href="mailto:me@jordanpurinton.com?Subject=Response%20From%20Portfolio%20Site" target="_blank" rel="noopener noreferrer">&nbsp;drop me a line</a>.
                         <br/>
