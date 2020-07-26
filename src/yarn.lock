@@ -8584,7 +8584,7 @@ react-reveal@^1.2.2:
   dependencies:
     prop-types "^15.5.10"
 
-react-scripts@^3.2.0:
+react-scripts@^3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-3.4.1.tgz#f551298b5c71985cc491b9acf3c8e8c0ae3ada0a"
   dependencies:
