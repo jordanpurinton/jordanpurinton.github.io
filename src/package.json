@@ -23,15 +23,12 @@
     "react-scripts": "^3.2.0",
     "react-typist": "^2.0.5",
     "react-typist-loop": "0.0.5",
-    "snyk": "^1.231.0",
     "styled-components": "^4.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
@@ -46,6 +43,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "snyk": true
+  ]
 }
