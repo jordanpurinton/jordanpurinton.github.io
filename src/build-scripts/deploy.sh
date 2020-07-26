@@ -1,5 +1,7 @@
-rm -rf ../static
-react-scripts build
+rm -rf ../../static
+pushd ../
+    react-scripts build
+popd
 mv -v build/* ../
 rm -rf build
 git add ../static/
