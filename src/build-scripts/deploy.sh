@@ -1,5 +1,5 @@
 rm -rf ../static
-node_modules/react-scripts/bin/react-scripts.js build
+NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js build
 mv -v build/* ../
 rm -rf build
 git add ../static/
