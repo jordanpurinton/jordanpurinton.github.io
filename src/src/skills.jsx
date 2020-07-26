@@ -20,30 +20,21 @@ class Skills extends React.Component {
                     <Col xs={4} sm={4} md={4}>
                         <SectionHeader>Skills</SectionHeader>
                         <div>
-                            <ListItem>Web/Mobile</ListItem>
+                            <ListItem>Languages/Frameworks</ListItem>
                             <ItemText>
-                                HTML, CSS, JavaScript, TypeScript, Bootstrap, jQuery,
-                                Angular, React, Node, Express, Ionic Framework
+                            Python, JavaScript, Bash, TypeScript, Angular, React, Ionic Framework, Java, HTML, CSS
                             </ItemText>
                         </div>
                         <div>
-                            <ListItem>QA Automation/Testing</ListItem>
+                            <ListItem>AWS</ListItem>
                             <ItemText>
-                                Mocha, Chai, Nightwatch,
-                                TestNG, Selenium
+                            EC2/ECS/ECR, CloudFormation, Lambda (SAM), API Gateway, CloudWatch, Dynamodb, Systems Manager, SNS
                             </ItemText>
                         </div>
                         <div>
-                            <ListItem>OOP/Scripting</ListItem>
+                            <ListItem>Tools/Misc.</ListItem>
                             <ItemText>
-                                Java, C#, Python, Ruby
-                            </ItemText>
-                        </div>
-                        <div>
-                            <ListItem>Misc.</ListItem>
-                            <ItemText>
-                                AWS (ec2, ecs, lambda, cfn, s3), Android Studio, Xcode, MS SQL Server, JIRA, 
-                                Postman, Version control w/ Git
+                            Docker, Grafana, Telegraf, InfluxDB, Kafka, Elasticsearch, DataDog, New Relic, TeamCity, GitLab & GitLab CI, GitHub
                             </ItemText>
                         </div>
                     </Col>
