@@ -1,5 +1,5 @@
 rm -rf ../static
-react-scripts build
+node_modules/react-scripts/bin/react-scripts.js build
 mv -v build/* ../
 rm -rf build
 git add ../static/
