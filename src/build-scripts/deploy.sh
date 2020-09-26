@@ -1,3 +1,4 @@
+yarn build
 rm -rf ../../static
 mv -v build/* ../
 rm -rf build
