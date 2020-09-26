@@ -35,9 +35,6 @@ class About extends React.Component {
                             Check out some of my projects and feel free to
                             <a href="mailto:me@jordanpurinton.com?Subject=Response%20From%20Portfolio%20Site" target="_blank" rel="noopener noreferrer">&nbsp;drop me a line</a>.
                         <br/>
-                        <Button style={styles.button} href={require('./assets/JordanPurintonResume.pdf')} target="_blank">
-                            <span style={styles.span}>View Resume</span>
-                        </Button>
                         </ItemText>
                     </Col>
                     <Col xs={4} sm={4} md={4}/>

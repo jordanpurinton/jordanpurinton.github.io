@@ -24,10 +24,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/runtime-main.bf00a06f.js"
   },
   {
-    "revision": "ba307478f28385b27ab4280197d6af04",
-    "url": "./static/media/JordanPurintonResume.ba307478.pdf"
-  },
-  {
     "revision": "c1572f2662ee4f6630907b97a7f991fe",
     "url": "./static/media/dataviz.c1572f26.png"
   },
