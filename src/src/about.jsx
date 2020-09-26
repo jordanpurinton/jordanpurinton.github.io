@@ -1,23 +1,11 @@
 import React from 'react';
 import Reusable from './reusable';
 import {Col, Row} from 'react-bootstrap';
-import {Button} from '@material-ui/core';
 
 const WhiteContainer = Reusable.WhiteContainer;
 const ContainerDivider = Reusable.ContainerDivider;
 const SectionHeader = Reusable.SectionHeader;
 const ItemText = Reusable.ItemText;
-
-const styles = {
-    button: {
-        right: '20px'
-    },
-    span: {
-        margin: '13px',
-        color: '#007bff',
-        fontSize: '15px'
-    }
-};
 
 class About extends React.Component {
     render() {
